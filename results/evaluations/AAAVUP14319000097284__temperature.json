@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000097284",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.072077035903931,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7469460964202881,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7389861941337585,
+        0.785430371761322
+      ],
+      [
+        0.7389861941337585,
+        1.0000001192092896,
+        0.7164216041564941
+      ],
+      [
+        0.785430371761322,
+        0.7164216041564941,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 10,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 11,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 8,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Inappropriately praises a poorly written essay and offers vague advice that fails to address severe grammatical, syntactical, and structural issues."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "References specific essay details like CO2 levels and volcanic hazards while suggesting concrete improvements, though some example sentences are weak."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Provides entirely generic and inaccurate praise that hallucinates strengths not present in the text and offers zero actionable guidance for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Inappropriately praises a poorly written essay and offers vague advice that fails to address severe grammatical, syntactical, and structural issues.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"References specific essay details like CO2 levels and volcanic hazards while suggesting concrete improvements, though some example sentences are weak.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Provides entirely generic and inaccurate praise that hallucinates strengths not present in the text and offers zero actionable guidance for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

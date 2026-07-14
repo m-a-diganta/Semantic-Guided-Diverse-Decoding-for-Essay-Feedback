@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000029253",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 19.973528146743774,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0,
+    "pairwise_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000029253",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 8,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 8,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 8,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000029253",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback references Venus-related topics but relies on repetitive, generic phrasing and incorrectly praises mechanics despite numerous spelling/grammar errors. It lacks concrete steps for improvement."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Identical to Variant 1 in content; mentions relevant themes but fails to address the essay's actual mechanical errors or provide specific, actionable revision strategies."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Same as the others; while it touches on the essay's subject matter, the advice is vague, repetitive, and cuts off prematurely without offering clear next steps."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"The feedback references Venus-related topics but relies on repetitive, generic phrasing and incorrectly praises mechanics despite numerous spelling/grammar errors. It lacks concrete steps for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Identical to Variant 1 in content; mentions relevant themes but fails to address the essay's actual mechanical errors or provide specific, actionable revision strategies.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Same as the others; while it touches on the essay's subject matter, the advice is vague, repetitive, and cuts off prematurely without offering clear next steps.\"}\n  ]\n}",
+    "error": null
+  }
+}

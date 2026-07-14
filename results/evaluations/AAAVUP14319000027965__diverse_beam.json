@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000027965",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 20.97034215927124,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0,
+    "pairwise_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000027965",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 9,
+          "organisation": 20,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 9,
+          "organisation": 20,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 10,
+          "organisation": 20,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000027965",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"The feedback incorrectly praises a severely flawed essay as 'well-written' and offers only generic, vague suggestions that fail to address the student's critical spelling, grammatical, and factual errors.\"}\n  ]\n}",
+    "error": null
+  }
+}

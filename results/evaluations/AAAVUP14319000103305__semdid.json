@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000103305",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 100.37354397773743,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7617453932762146,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.8023861646652222,
+        0.7948548793792725
+      ],
+      [
+        0.8023861646652222,
+        1.0000001192092896,
+        0.6879953145980835
+      ],
+      [
+        0.7948548793792725,
+        0.6879953145980835,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000103305",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 9,
+          "organisation": 7,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 8,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 5,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000103305",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Provides a standard rubric-style breakdown but relies on generic writing advice and misjudges the essay's weak execution, offering vague improvement steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Directly quotes essay phrases and identifies structural issues, but advice remains somewhat abstract and introduces irrelevant context."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Contradictory and overly verbose; mischaracterizes the essay's disjointed nature and offers vague, non-concrete suggestions without clear implementation guidance."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides a standard rubric-style breakdown but relies on generic writing advice and misjudges the essay's weak execution, offering vague improvement steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Directly quotes essay phrases and identifies structural issues, but advice remains somewhat abstract and introduces irrelevant context.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Contradictory and overly verbose; mischaracterizes the essay's disjointed nature and offers vague, non-concrete suggestions without clear implementation guidance.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000113288",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Misattributes strong analytical skills and logical flow to a poorly structured essay, offering only vague suggestions without referencing specific text or errors."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Invents non-existent features like graphs and strong citations, providing only generic praise and vague structural points that do not address the essay's actual content or errors."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Correctly identifies the essay's mechanical and structural flaws with practical advice to shorten sentences and refine terminology, though it could more directly quote specific errors for maximum specificity."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Misattributes strong analytical skills and logical flow to a poorly structured essay, offering only vague suggestions without referencing specific text or errors.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Invents non-existent features like graphs and strong citations, providing only generic praise and vague structural points that do not address the essay's actual content or errors.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 4,\n      \"specificity\": 3,\n      \"actionability\": 4,\n      \"rationale\": \"Correctly identifies the essay's mechanical and structural flaws with practical advice to shorten sentences and refine terminology, though it could more directly quote specific errors for maximum specificity.\"\n    }\n  ]\n}",
+  "error": null
+}

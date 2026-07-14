@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000107963",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 20.35831904411316,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0000001192092896,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000107963",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 16,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 16,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 16,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000107963",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly praises the essay's structure and argumentation despite its incomplete state, offers vague advice that ignores severe grammatical errors, and fails to address the actual issues in the draft."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Identical in substance to Variant 1; it mischaracterizes the essay's quality, misses critical structural and grammatical flaws, and provides generic suggestions that lack concrete steps for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Shares the same flaws as the others: it falsely claims a complete structure, overlooks pervasive errors and underdeveloped ideas, and gives non-specific advice that won't help the student meaningfully revise."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback incorrectly praises the essay's structure and argumentation despite its incomplete state, offers vague advice that ignores severe grammatical errors, and fails to address the actual issues in the draft.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Identical in substance to Variant 1; it mischaracterizes the essay's quality, misses critical structural and grammatical flaws, and provides generic suggestions that lack concrete steps for improvement.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Shares the same flaws as the others: it falsely claims a complete structure, overlooks pervasive errors and underdeveloped ideas, and gives non-specific advice that won't help the student meaningfully revise.\"}\n  ]\n}",
+    "error": null
+  }
+}

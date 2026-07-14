@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000042855",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Overly positive and vague; it fails to address the essay's glaring grammatical errors, structural weaknesses, or factual inaccuracies."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Heavily hallucinates quotes, authors, and details not present in the essay, making it confusing and completely unhelpful for revision."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "Correctly identifies structural and evidentiary weaknesses with relevant references to the text, though suggestions remain somewhat general."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overly positive and vague; it fails to address the essay's glaring grammatical errors, structural weaknesses, or factual inaccuracies.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Heavily hallucinates quotes, authors, and details not present in the essay, making it confusing and completely unhelpful for revision.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"Correctly identifies structural and evidentiary weaknesses with relevant references to the text, though suggestions remain somewhat general.\"}\n  ]\n}",
+  "error": null
+}

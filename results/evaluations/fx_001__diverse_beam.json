@@ -1,0 +1,85 @@
+{
+  "essay_id": "fx_001",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 20.914765119552612,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0000001192092896,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "fx_001",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 12,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": null
+}

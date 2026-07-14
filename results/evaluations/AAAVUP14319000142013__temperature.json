@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000142013",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 9.063765048980713,
+  "diversity": {
+    "mean_pairwise_similarity": 0.8021489977836609,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7387323379516602,
+        0.8815315961837769
+      ],
+      [
+        0.7387323379516602,
+        1.0000001192092896,
+        0.7861828804016113
+      ],
+      [
+        0.8815315961837769,
+        0.7861828804016113,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000142013",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 8,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 6,
+          "organisation": 7,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 5,
+          "organisation": 6,
+          "mechanics": 4
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000142013",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Hallucinates content not in the essay and praises non-existent organization, making it largely unhelpful despite vague improvement suggestions."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Correctly identifies the need for a clearer thesis and better evidence, though it overstates the essay's current quality; offers moderately concrete structural advice."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Misapplies irrelevant examples (Apollo missions) and dismisses severe grammatical errors as minor, providing vague guidance that misses the essay's core issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Hallucinates content not in the essay and praises non-existent organization, making it largely unhelpful despite vague improvement suggestions.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"Correctly identifies the need for a clearer thesis and better evidence, though it overstates the essay's current quality; offers moderately concrete structural advice.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Misapplies irrelevant examples (Apollo missions) and dismisses severe grammatical errors as minor, providing vague guidance that misses the essay's core issues.\"}\n  ]\n}",
+    "error": null
+  }
+}

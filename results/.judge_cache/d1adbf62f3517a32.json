@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000029253",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback misjudges the essay's quality by calling it \"well-written\" and offers generic advice that ignores severe spelling, grammar, and factual issues present in the text. It lacks concrete steps to help the student address these foundational problems."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback misjudges the essay's quality by calling it \\\"well-written\\\" and offers generic advice that ignores severe spelling, grammar, and factual issues present in the text. It lacks concrete steps to help the student address these foundational problems.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000017635",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 104.99004411697388,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7624860405921936,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8118619322776794,
+        0.7464631199836731
+      ],
+      [
+        0.8118619322776794,
+        1.0,
+        0.7291330695152283
+      ],
+      [
+        0.7464631199836731,
+        0.7291330695152283,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000017635",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 7,
+          "organisation": 7,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 6,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 13,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000017635",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Misreads the essay's low quality and suggests irrelevant improvements (e.g., plant growth on Venus), with vague structural advice that ignores critical grammar and factual errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "More accurately identifies structural and tonal weaknesses with direct references to the text, but lacks concrete steps for revision and overlooks pervasive mechanical issues."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 1.0,
+        "rationale": "Cites specific essay details but severely overestimates quality and suggests overly complex scientific expansions, offering abstract advice that fails to address foundational clarity and grammar problems."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Misreads the essay's low quality and suggests irrelevant improvements (e.g., plant growth on Venus), with vague structural advice that ignores critical grammar and factual errors.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"More accurately identifies structural and tonal weaknesses with direct references to the text, but lacks concrete steps for revision and overlooks pervasive mechanical issues.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 1, \"rationale\": \"Cites specific essay details but severely overestimates quality and suggests overly complex scientific expansions, offering abstract advice that fails to address foundational clarity and grammar problems.\"}\n  ]\n}",
+    "error": null
+  }
+}

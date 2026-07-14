@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000033948",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Feedback is overly generic and misjudges the essay's low quality, offering inappropriate structural advice like bullet points for a standard analytical piece."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "References specific Venus details but remains vague on how to fix the essay's core issues, with some confusing phrasing and unclear suggestions."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 4.0,
+      "actionability": 3.0,
+      "rationale": "Directly addresses the student's specific errors and content, offering concrete editing steps like fixing typos and streamlining redundant phrasing to improve flow."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Feedback is overly generic and misjudges the essay's low quality, offering inappropriate structural advice like bullet points for a standard analytical piece.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"References specific Venus details but remains vague on how to fix the essay's core issues, with some confusing phrasing and unclear suggestions.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 3, \"rationale\": \"Directly addresses the student's specific errors and content, offering concrete editing steps like fixing typos and streamlining redundant phrasing to improve flow.\"}\n  ]\n}",
+  "error": null
+}

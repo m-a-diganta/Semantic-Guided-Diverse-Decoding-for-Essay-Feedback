@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000097284",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 18.25794529914856,
+  "diversity": {
+    "mean_pairwise_similarity": 0.9985492825508118,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.9990749359130859,
+        0.9979590773582458
+      ],
+      [
+        0.9990749359130859,
+        1.0000001192092896,
+        0.998613715171814
+      ],
+      [
+        0.9979590773582458,
+        0.998613715171814,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 10,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 9,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 9,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback falsely praises the essay as well-written and logically organized, completely missing severe grammatical errors and structural flaws. Vague suggestions to add percentages or examples fail to address the fundamental writing issues, making it misleading and unactionable.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

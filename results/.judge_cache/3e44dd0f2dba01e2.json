@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000095234",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback misjudges the essay's low quality by offering inflated praise and completely overlooks pervasive grammatical errors, repetition, and structural flaws. Its suggestion to improve transitions and organization is too vague to guide concrete revisions."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback misjudges the essay's low quality by offering inflated praise and completely overlooks pervasive grammatical errors, repetition, and structural flaws. Its suggestion to improve transitions and organization is too vague to guide concrete revisions.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000097284",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback incorrectly praises the essay for analytical depth and research that are entirely absent, ignores severe grammatical issues, and offers only vague suggestions that do not address the student's actual writing deficits."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises the essay for analytical depth and research that are entirely absent, ignores severe grammatical issues, and offers only vague suggestions that do not address the student's actual writing deficits.\"\n    }\n  ]\n}",
+  "error": null
+}

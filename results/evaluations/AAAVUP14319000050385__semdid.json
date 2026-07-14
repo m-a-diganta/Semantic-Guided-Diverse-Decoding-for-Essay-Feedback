@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000050385",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 103.07528877258301,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6056232452392578,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7941988110542297,
+        0.5554128885269165
+      ],
+      [
+        0.7941988110542297,
+        1.0,
+        0.46725791692733765
+      ],
+      [
+        0.5554128885269165,
+        0.46725791692733765,
+        0.9999999403953552
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000050385",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 5,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 5,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 5,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000050385",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Mischaracterizes the essay's quality and contains factual inaccuracies about its content, offering only generic writing advice with minimal concrete steps for improvement."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Completely hallucinates essay content and structure, offering irrelevant advice about interstellar colonization and chapters that do not exist in the draft."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Inaccurately praises the draft's mechanics and structure while offering vague, generic suggestions that lack concrete steps for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Mischaracterizes the essay's quality and contains factual inaccuracies about its content, offering only generic writing advice with minimal concrete steps for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Completely hallucinates essay content and structure, offering irrelevant advice about interstellar colonization and chapters that do not exist in the draft.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Inaccurately praises the draft's mechanics and structure while offering vague, generic suggestions that lack concrete steps for revision.\"}\n  ]\n}",
+    "error": null
+  }
+}

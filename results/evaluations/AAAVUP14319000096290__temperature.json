@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000096290",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.283496856689453,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6323068141937256,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.5305806994438171,
+        0.6533334851264954
+      ],
+      [
+        0.5305806994438171,
+        1.0,
+        0.7130062580108643
+      ],
+      [
+        0.6533334851264954,
+        0.7130062580108643,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096290",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 1,
+          "organisation": 4,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 1,
+          "organisation": 0,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": false,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 0,
+          "evidence": 4,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096290",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback relies on generic praise and a factually confusing critique about temperature variations, offering vague suggestions to add descriptions without concrete guidance."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "It accurately references the essay’s key points but pivots to an irrelevant ethical framework, lacking direct editing instructions for the actual text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The response is overly effusive and template-like, mentioning only vague 'minor adjustments' while providing zero concrete steps for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic praise and a factually confusing critique about temperature variations, offering vague suggestions to add descriptions without concrete guidance.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"It accurately references the essay’s key points but pivots to an irrelevant ethical framework, lacking direct editing instructions for the actual text.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The response is overly effusive and template-like, mentioning only vague 'minor adjustments' while providing zero concrete steps for revision.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

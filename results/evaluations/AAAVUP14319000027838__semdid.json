@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000027838",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 88.7922534942627,
+  "diversity": {
+    "mean_pairwise_similarity": 0.46407613158226013,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.2081005871295929,
+        0.7843286991119385
+      ],
+      [
+        0.2081005871295929,
+        1.0,
+        0.39979904890060425
+      ],
+      [
+        0.7843286991119385,
+        0.39979904890060425,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 5,
+          "organisation": 5,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 6,
+          "organisation": 5,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Misjudges the essay's low quality and offers vague, high-level suggestions without addressing fundamental grammar or factual clarity issues."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Hallucinates non-existent essay features like bold formatting and headings, making the feedback entirely irrelevant to this specific text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 4.0,
+        "specificity": 4.0,
+        "actionability": 3.0,
+        "rationale": "Directly references the essay's specific claims about Venus and offers concrete revision steps, though it slightly overstates the current organizational quality."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Misjudges the essay's low quality and offers vague, high-level suggestions without addressing fundamental grammar or factual clarity issues.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates non-existent essay features like bold formatting and headings, making the feedback entirely irrelevant to this specific text.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 3, \"rationale\": \"Directly references the essay's specific claims about Venus and offers concrete revision steps, though it slightly overstates the current organizational quality.\"}\n  ]\n}",
+    "error": null
+  }
+}

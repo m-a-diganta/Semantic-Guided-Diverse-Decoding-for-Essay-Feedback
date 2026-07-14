@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000022523",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.305793046951294,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6092087626457214,
+    "pairwise_matrix": [
+      [
+        0.9999999403953552,
+        0.7614140510559082,
+        0.586756706237793
+      ],
+      [
+        0.7614140510559082,
+        0.9999999403953552,
+        0.4794556200504303
+      ],
+      [
+        0.586756706237793,
+        0.4794556200504303,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000022523",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 2,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000022523",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is generic and misses the essay's severe grammatical and factual errors, offering vague suggestions like 'improving cohesion' without concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "This response misreads the poorly structured draft as 'persuasive' and 'coherent,' relying on boilerplate praise and nonsensical structural advice that provides no actionable guidance."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "It references specific claims from the essay like the Mercury comparison and sulfuric clouds, but drifts into irrelevant Earth climate topics and offers only vague suggestions for adding data."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback is generic and misses the essay's severe grammatical and factual errors, offering vague suggestions like 'improving cohesion' without concrete revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"This response misreads the poorly structured draft as 'persuasive' and 'coherent,' relying on boilerplate praise and nonsensical structural advice that provides no actionable guidance.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"It references specific claims from the essay like the Mercury comparison and sulfuric clouds, but drifts into irrelevant Earth climate topics and offers only vague suggestions for adding data.\"}\n  ]\n}",
+    "error": null
+  }
+}

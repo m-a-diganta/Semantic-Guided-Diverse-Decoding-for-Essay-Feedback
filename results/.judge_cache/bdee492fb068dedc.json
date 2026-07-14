@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000147365",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Praises qualities the essay lacks and offers generic advice while missing severe grammatical issues; mentions a non-existent 'bombs' comparison."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Overly positive with hallucinated references; dense prose obscures vague suggestions that fail to address core mechanical and structural flaws."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Directly references specific claims from the essay but suggests irrelevant topics and ignores fundamental grammar and coherence problems."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Praises qualities the essay lacks and offers generic advice while missing severe grammatical issues; mentions a non-existent 'bombs' comparison.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Overly positive with hallucinated references; dense prose obscures vague suggestions that fail to address core mechanical and structural flaws.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Directly references specific claims from the essay but suggests irrelevant topics and ignores fundamental grammar and coherence problems.\"\n    }\n  ]\n}",
+  "error": null
+}

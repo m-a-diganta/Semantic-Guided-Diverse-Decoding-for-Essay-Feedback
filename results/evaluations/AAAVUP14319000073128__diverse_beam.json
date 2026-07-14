@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000073128",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 22.714373111724854,
+  "diversity": {
+    "mean_pairwise_similarity": 0.8974466323852539,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8461698293685913,
+        0.8461698293685913
+      ],
+      [
+        0.8461698293685913,
+        1.0,
+        1.0
+      ],
+      [
+        0.8461698293685913,
+        1.0,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000073128",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 11,
+          "evidence": 11,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 12,
+          "organisation": 11,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 12,
+          "organisation": 11,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000073128",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 1.0,
+        "rationale": "References specific facts from the essay but remains overly positive and generic, failing to address actual structural or mechanical issues. It provides no concrete steps for the student to improve their writing."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 1.0,
+        "rationale": "Attempts a structured critique but offers vague advice and incorrectly claims the essay is free of grammatical errors. The suggestions lack concrete examples, severely limiting their practical value."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 1.0,
+        "rationale": "Nearly identical to Variant 2; provides similarly vague improvement suggestions and cuts off mid-sentence, offering no clear or actionable path for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"References specific facts from the essay but remains overly positive and generic, failing to address actual structural or mechanical issues. It provides no concrete steps for the student to improve their writing.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"Attempts a structured critique but offers vague advice and incorrectly claims the essay is free of grammatical errors. The suggestions lack concrete examples, severely limiting their practical value.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"Nearly identical to Variant 2; provides similarly vague improvement suggestions and cuts off mid-sentence, offering no clear or actionable path for revision.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

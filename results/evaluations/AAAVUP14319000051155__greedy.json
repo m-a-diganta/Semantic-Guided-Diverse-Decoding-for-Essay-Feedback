@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000051155",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.450747013092041,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000051155",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000051155",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "The feedback references specific essay elements like spacecraft failures and planetary distances but misinterprets them (e.g., claiming colonization attempts) and overlooks the essay's severe grammatical issues. Its suggestions for improvement are too vague to meaningfully guide a struggling writer."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback references specific essay elements like spacecraft failures and planetary distances but misinterprets them (e.g., claiming colonization attempts) and overlooks the essay's severe grammatical issues. Its suggestions for improvement are too vague to meaningfully guide a struggling writer.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

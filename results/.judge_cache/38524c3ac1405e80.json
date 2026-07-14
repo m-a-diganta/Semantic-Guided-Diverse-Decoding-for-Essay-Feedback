@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000033630",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Overly positive and contains hallucinated references (e.g., Mars comparisons) that do not appear in the text, failing to address the essay's prominent grammatical errors and shallow analysis. It lacks concrete steps for improvement, making it minimally useful for revision."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 4.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Clearly identifies structural and analytical weaknesses with targeted suggestions for deeper evidence integration, smoother transitions, and better mechanical sequencing. While it could more directly address the pervasive grammar issues, its structured breakdown provides a practical roadmap for revision."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Contains factual inaccuracies about the essay's structure (e.g., claiming it has clear headings) and offers vague, generic suggestions that do not target the student's core weaknesses in grammar and analytical depth. The feedback lacks concrete, actionable steps for meaningful improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overly positive and contains hallucinated references (e.g., Mars comparisons) that do not appear in the text, failing to address the essay's prominent grammatical errors and shallow analysis. It lacks concrete steps for improvement, making it minimally useful for revision.\"},\n    {\"variant\": 2, \"usefulness\": 4, \"specificity\": 3, \"actionability\": 4, \"rationale\": \"Clearly identifies structural and analytical weaknesses with targeted suggestions for deeper evidence integration, smoother transitions, and better mechanical sequencing. While it could more directly address the pervasive grammar issues, its structured breakdown provides a practical roadmap for revision.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Contains factual inaccuracies about the essay's structure (e.g., claiming it has clear headings) and offers vague, generic suggestions that do not target the student's core weaknesses in grammar and analytical depth. The feedback lacks concrete, actionable steps for meaningful improvement.\"}\n  ]\n}",
+  "error": null
+}

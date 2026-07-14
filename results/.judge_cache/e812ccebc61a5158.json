@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000050796",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback is generic and misreads the essay's quality, offering vague critiques that do not address the actual mechanical or structural flaws. It lacks concrete steps for improvement, limiting its practical value."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "This variant provides a useful revision example that models better phrasing, making it the most actionable. However, it still misses key errors in the text and relies on somewhat abstract organizational advice."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback inaccurately praises the essay and misstates its content, providing only vague suggestions that fail to target the student's actual writing issues. It offers no concrete guidance for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback is generic and misreads the essay's quality, offering vague critiques that do not address the actual mechanical or structural flaws. It lacks concrete steps for improvement, limiting its practical value.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 4, \"rationale\": \"This variant provides a useful revision example that models better phrasing, making it the most actionable. However, it still misses key errors in the text and relies on somewhat abstract organizational advice.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback inaccurately praises the essay and misstates its content, providing only vague suggestions that fail to target the student's actual writing issues. It offers no concrete guidance for revision.\"}\n  ]\n}",
+  "error": null
+}

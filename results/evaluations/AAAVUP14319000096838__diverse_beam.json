@@ -1,0 +1,113 @@
+{
+  "essay_id": "AAAVUP14319000096838",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 22.37016797065735,
+  "diversity": {
+    "mean_pairwise_similarity": 0.9758809208869934,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.9638214111328125,
+        1.0
+      ],
+      [
+        0.9638214111328125,
+        1.0,
+        0.9638214111328125
+      ],
+      [
+        1.0,
+        0.9638214111328125,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096838",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 8,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 10,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 10,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence"
+    ],
+    "n_union": 2
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096838",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 4.0,
+        "actionability": 1.0,
+        "rationale": "The feedback merely extracts quotes and incorrectly praises the essay's structure without offering critique or revision strategies."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 4.0,
+        "actionability": 1.0,
+        "rationale": "Identical in approach to Variant 1; it lists evidence verbatim but provides no analytical commentary or actionable steps for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 4.0,
+        "actionability": 1.0,
+        "rationale": "Like the others, it only pastes excerpts and makes inaccurate claims about argument development, leaving the student with no guidance on how to fix mechanical or structural issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 4, \"actionability\": 1, \"rationale\": \"The feedback merely extracts quotes and incorrectly praises the essay's structure without offering critique or revision strategies.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 4, \"actionability\": 1, \"rationale\": \"Identical in approach to Variant 1; it lists evidence verbatim but provides no analytical commentary or actionable steps for improvement.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 4, \"actionability\": 1, \"rationale\": \"Like the others, it only pastes excerpts and makes inaccurate claims about argument development, leaving the student with no guidance on how to fix mechanical or structural issues.\"}\n  ]\n}",
+    "error": null
+  }
+}

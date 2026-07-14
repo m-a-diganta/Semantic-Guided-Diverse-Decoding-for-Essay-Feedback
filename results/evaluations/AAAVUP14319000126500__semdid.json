@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000126500",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 101.98269367218018,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6613044738769531,
+    "pairwise_matrix": [
+      [
+        0.9999999403953552,
+        0.7019306421279907,
+        0.6661937236785889
+      ],
+      [
+        0.7019306421279907,
+        1.0,
+        0.6157890558242798
+      ],
+      [
+        0.6661937236785889,
+        0.6157890558242798,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000126500",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 8,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000126500",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "References specific essay features like geological terms but relies on generic academic advice that lacks concrete revision steps for this student level."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Confusingly structured and abstract, it reads more like a rubric commentary than direct feedback, offering no clear or practical revision guidance."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Inaccurately praises a weak draft as excellent and misinterprets specific details, providing zero actionable steps for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"References specific essay features like geological terms but relies on generic academic advice that lacks concrete revision steps for this student level.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Confusingly structured and abstract, it reads more like a rubric commentary than direct feedback, offering no clear or practical revision guidance.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Inaccurately praises a weak draft as excellent and misinterprets specific details, providing zero actionable steps for improvement.\"}\n  ]\n}",
+    "error": null
+  }
+}

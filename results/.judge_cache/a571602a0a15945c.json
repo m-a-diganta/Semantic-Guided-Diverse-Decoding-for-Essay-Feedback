@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000139537",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback inaccurately praises non-existent elements like 'personal experiences' and offers only vague, generic advice without addressing the essay's actual mechanical errors or structural weaknesses."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback inaccurately praises non-existent elements like 'personal experiences' and offers only vague, generic advice without addressing the essay's actual mechanical errors or structural weaknesses.\"\n    }\n  ]\n}",
+  "error": null
+}

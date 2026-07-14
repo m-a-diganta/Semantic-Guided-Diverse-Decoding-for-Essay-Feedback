@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000041829",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback correctly identifies structural and evidentiary gaps but overpraises the essay's current quality, offering somewhat generic advice on transitions and development."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The response is incoherent and hallucinates irrelevant topics like exoplanets and Mars colonization, providing no meaningful or concrete guidance for this specific essay."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback misinterprets the essay's opening and content while offering confused structural suggestions, limiting its practical value despite mentioning headings."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback correctly identifies structural and evidentiary gaps but overpraises the essay's current quality, offering somewhat generic advice on transitions and development.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The response is incoherent and hallucinates irrelevant topics like exoplanets and Mars colonization, providing no meaningful or concrete guidance for this specific essay.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback misinterprets the essay's opening and content while offering confused structural suggestions, limiting its practical value despite mentioning headings.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000067681",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 2.8363049030303955,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000067681",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 10,
+          "organisation": 6,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000067681",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is highly generic and misjudges the essay's actual quality, offering vague suggestions without referencing Venus, the specific quotes, or the repetitive analysis. It lacks concrete steps for improvement and fails to address the essay's specific mechanical and structural issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is highly generic and misjudges the essay's actual quality, offering vague suggestions without referencing Venus, the specific quotes, or the repetitive analysis. It lacks concrete steps for improvement and fails to address the essay's specific mechanical and structural issues.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

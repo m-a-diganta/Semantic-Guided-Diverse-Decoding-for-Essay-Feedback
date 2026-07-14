@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000151929",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 5.05453896522522,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000151929",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 15,
+          "organisation": 13,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000151929",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback identifies valid areas for expansion but relies heavily on generic writing advice and contains a contradictory, incomplete conclusion that undermines its practical value. It lacks concrete revision steps or direct references to the student’s specific examples."
+      }
+    ],
+    "raw_response": "\n\n{\"scores\": [{\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback identifies valid areas for expansion but relies heavily on generic writing advice and contains a contradictory, incomplete conclusion that undermines its practical value. It lacks concrete revision steps or direct references to the student’s specific examples.\"}]}",
+    "error": null
+  }
+}

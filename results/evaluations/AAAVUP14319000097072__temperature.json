@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000097072",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 6.92661714553833,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7570303082466125,
+    "pairwise_matrix": [
+      [
+        0.9999998807907104,
+        0.6901050806045532,
+        0.774575412273407
+      ],
+      [
+        0.6901050806045532,
+        1.0,
+        0.8064104318618774
+      ],
+      [
+        0.774575412273407,
+        0.8064104318618774,
+        0.9999999403953552
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000097072",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 5,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 5,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 2,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000097072",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Misjudges the essay's low quality and offers trivial word-swap suggestions that ignore its major run-on structure and grammatical errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Hallucinates irrelevant content like Mars and ancient artifacts, providing vague advice that completely misses the actual text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Accurately identifies the fragmented focus and poor flow but overstates the thesis strength, offering somewhat generic advice on improving transitions."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Misjudges the essay's low quality and offers trivial word-swap suggestions that ignore its major run-on structure and grammatical errors.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates irrelevant content like Mars and ancient artifacts, providing vague advice that completely misses the actual text.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"Accurately identifies the fragmented focus and poor flow but overstates the thesis strength, offering somewhat generic advice on improving transitions.\"}\n  ]\n}",
+    "error": null
+  }
+}

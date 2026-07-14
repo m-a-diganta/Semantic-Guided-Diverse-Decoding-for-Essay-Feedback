@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000096104",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 4.0,
+      "specificity": 4.0,
+      "actionability": 3.0,
+      "rationale": "Provides structured, essay-specific critique that highlights strengths and identifies areas for deeper analysis. Suggestions are clear but could be more concrete regarding how to implement the improvements."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Offers only generic praise without referencing any specific content from the essay or providing constructive guidance. Lacks any concrete steps for revision or improvement."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Summarizes the essay’s main points rather than offering critical feedback, and suggests vague structural changes without explaining how to execute them. Does not address the essay’s actual weaknesses or provide clear revision steps."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 4,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"Provides structured, essay-specific critique that highlights strengths and identifies areas for deeper analysis. Suggestions are clear but could be more concrete regarding how to implement the improvements.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Offers only generic praise without referencing any specific content from the essay or providing constructive guidance. Lacks any concrete steps for revision or improvement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Summarizes the essay’s main points rather than offering critical feedback, and suggests vague structural changes without explaining how to execute them. Does not address the essay’s actual weaknesses or provide clear revision steps.\"\n    }\n  ]\n}",
+  "error": null
+}

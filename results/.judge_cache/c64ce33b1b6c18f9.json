@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000097072",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 3.0,
+      "rationale": "The feedback incorrectly claims the essay discusses Mars missions and offers only generic writing advice. While structured clearly, its misreading of the text severely limits its usefulness and specificity."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "This response heavily misinterprets the essay's content and tone, confusing Venus with Mars and inventing a stance against research. The convoluted phrasing makes the suggestions confusing and largely inapplicable."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Although it notes structural and transition issues, the feedback incorrectly frames the essay as a Mars-Venus comparison. The suggestions are somewhat actionable but remain misdirected due to fundamental reading errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 3, \"rationale\": \"The feedback incorrectly claims the essay discusses Mars missions and offers only generic writing advice. While structured clearly, its misreading of the text severely limits its usefulness and specificity.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"This response heavily misinterprets the essay's content and tone, confusing Venus with Mars and inventing a stance against research. The convoluted phrasing makes the suggestions confusing and largely inapplicable.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Although it notes structural and transition issues, the feedback incorrectly frames the essay as a Mars-Venus comparison. The suggestions are somewhat actionable but remain misdirected due to fundamental reading errors.\"}\n  ]\n}",
+  "error": null
+}

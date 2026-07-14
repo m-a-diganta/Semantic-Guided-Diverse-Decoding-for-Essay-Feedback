@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000106879",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 5.204692125320435,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000106879",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 3,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000106879",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "The feedback offers basic structural guidance but completely overlooks the essay's severe grammatical errors, spelling mistakes, and repetitive content, making it poorly matched to a score-1 draft. Its reliance on generic paragraph templates and mismatched praise limits both its specificity and concrete actionability."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"The feedback offers basic structural guidance but completely overlooks the essay's severe grammatical errors, spelling mistakes, and repetitive content, making it poorly matched to a score-1 draft. Its reliance on generic paragraph templates and mismatched praise limits both its specificity and concrete actionability.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

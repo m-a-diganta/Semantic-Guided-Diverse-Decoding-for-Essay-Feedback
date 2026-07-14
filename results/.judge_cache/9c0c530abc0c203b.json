@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000134982",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Provides generic structural advice but mischaracterizes the essay's quality and ignores severe mechanical errors."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Hallucinates essay content and offers contradictory, vague guidance that fails to address actual writing issues."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Overpraises the draft and suggests vague improvements while completely overlooking fundamental spelling, grammar, and clarity problems."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Provides generic structural advice but mischaracterizes the essay's quality and ignores severe mechanical errors.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates essay content and offers contradictory, vague guidance that fails to address actual writing issues.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Overpraises the draft and suggests vague improvements while completely overlooking fundamental spelling, grammar, and clarity problems.\"}\n  ]\n}",
+  "error": null
+}

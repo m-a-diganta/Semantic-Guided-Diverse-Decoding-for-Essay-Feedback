@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000134270",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 10.76888394355774,
+  "diversity": {
+    "mean_pairwise_similarity": 0.5609583258628845,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.546657145023346,
+        0.5429911613464355
+      ],
+      [
+        0.546657145023346,
+        0.9999999403953552,
+        0.5932266712188721
+      ],
+      [
+        0.5429911613464355,
+        0.5932266712188721,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000134270",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 12,
+          "organisation": 7,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 3,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000134270",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "It attempts to address structure and evidence but misinterprets the essay's disjointed content and gives confusing advice that ignores fundamental grammar issues."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "The feedback is incomplete and hallucinates specific religious references not present in the essay, leaving the student with no clear steps for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "It excessively praises a severely underdeveloped essay and offers only vague suggestions to elaborate without addressing the critical mechanical or organizational flaws."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"It attempts to address structure and evidence but misinterprets the essay's disjointed content and gives confusing advice that ignores fundamental grammar issues.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is incomplete and hallucinates specific religious references not present in the essay, leaving the student with no clear steps for improvement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"It excessively praises a severely underdeveloped essay and offers only vague suggestions to elaborate without addressing the critical mechanical or organizational flaws.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

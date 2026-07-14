@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000050796",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.9128577709198,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000050796",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 11,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000050796",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly praises strengths the essay lacks and offers only generic advice, failing to address the actual grammatical, structural, and logical issues present in the text."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises strengths the essay lacks and offers only generic advice, failing to address the actual grammatical, structural, and logical issues present in the text.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

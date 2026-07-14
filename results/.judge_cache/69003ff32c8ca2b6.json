@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000105255",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Relies on generic praise and references content not present in the essay, providing no concrete guidance for revision."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "Effectively identifies real issues like repetition and organizational flow, though it contains some inaccurate references that slightly undermine its reliability."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Offers vague, high-level suggestions and irrelevant comparisons without addressing the essay's repetitive structure or specific mechanical errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Relies on generic praise and references content not present in the essay, providing no concrete guidance for revision.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Effectively identifies real issues like repetition and organizational flow, though it contains some inaccurate references that slightly undermine its reliability.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Offers vague, high-level suggestions and irrelevant comparisons without addressing the essay's repetitive structure or specific mechanical errors.\"\n    }\n  ]\n}",
+  "error": null
+}

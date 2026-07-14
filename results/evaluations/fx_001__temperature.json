@@ -1,0 +1,86 @@
+{
+  "essay_id": "fx_001",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.199671030044556,
+  "diversity": {
+    "mean_pairwise_similarity": 0.680612325668335,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.719127893447876,
+        0.6469254493713379
+      ],
+      [
+        0.719127893447876,
+        0.9999999403953552,
+        0.675783634185791
+      ],
+      [
+        0.6469254493713379,
+        0.675783634185791,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "fx_001",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 6,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 3,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 8,
+          "organisation": 7,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": null
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000095863",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Mischaracterizes a severely flawed draft as well-organized and grammatically correct, offering only generic advice that ignores fundamental structural issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Overlooks the essay's basic mechanical and coherence problems while providing broad suggestions that lack concrete revision steps."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Fails to address broken syntax and factual inaccuracies, relying on vague open-ended questions rather than direct, actionable guidance."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Mischaracterizes a severely flawed draft as well-organized and grammatically correct, offering only generic advice that ignores fundamental structural issues.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overlooks the essay's basic mechanical and coherence problems while providing broad suggestions that lack concrete revision steps.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Fails to address broken syntax and factual inaccuracies, relying on vague open-ended questions rather than direct, actionable guidance.\"}\n  ]\n}",
+  "error": null
+}

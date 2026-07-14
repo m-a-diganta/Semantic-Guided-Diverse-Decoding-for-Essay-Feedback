@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000118355",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Incorrectly identifies the essay's subject as Mars and relies on generic praise, completely missing the severe grammatical errors and structural weaknesses that require attention."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "References specific essay details like sulfuric acid clouds and temperature hazards, but offers broad suggestions rather than targeted, step-by-step revisions for the student's writing mechanics."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Contains a factual error about planetary proximity and provides only vague advice that lacks concrete steps to help the student improve their draft."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Incorrectly identifies the essay's subject as Mars and relies on generic praise, completely missing the severe grammatical errors and structural weaknesses that require attention.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"References specific essay details like sulfuric acid clouds and temperature hazards, but offers broad suggestions rather than targeted, step-by-step revisions for the student's writing mechanics.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Contains a factual error about planetary proximity and provides only vague advice that lacks concrete steps to help the student improve their draft.\"}\n  ]\n}",
+  "error": null
+}

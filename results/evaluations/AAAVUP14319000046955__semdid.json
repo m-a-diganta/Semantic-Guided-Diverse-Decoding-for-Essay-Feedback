@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000046955",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 122.96056890487671,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7596735954284668,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7334860563278198,
+        0.8162143230438232
+      ],
+      [
+        0.7334860563278198,
+        1.0,
+        0.7293203473091125
+      ],
+      [
+        0.8162143230438232,
+        0.7293203473091125,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 5,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 11,
+          "organisation": 12,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 8,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Identifies logical flow and argument depth issues but overlooks prominent grammar errors and mischaracterizes the essay's evidence. Suggestions are somewhat generic without concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Overly positive and misaligned with the essay's actual quality, falsely praising formatting that isn't present. Lacks concrete guidance to address fundamental writing flaws."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Contains significant factual inaccuracies and hallucinations that undermine its credibility. Advice is muddled by irrelevant content and lacks practical steps for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Identifies logical flow and argument depth issues but overlooks prominent grammar errors and mischaracterizes the essay's evidence. Suggestions are somewhat generic without concrete revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Overly positive and misaligned with the essay's actual quality, falsely praising formatting that isn't present. Lacks concrete guidance to address fundamental writing flaws.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Contains significant factual inaccuracies and hallucinations that undermine its credibility. Advice is muddled by irrelevant content and lacks practical steps for improvement.\"}\n  ]\n}",
+    "error": null
+  }
+}

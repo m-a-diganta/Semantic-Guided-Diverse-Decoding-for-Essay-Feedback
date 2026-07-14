@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000079171",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Mischaracterizes the essay's quality and cuts off mid-sentence; advice is vague, contradictory, and poorly aligned with the actual text."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Hallucinates paragraph numbers and overpraises a weak draft; offers only generic, unactionable praise without addressing core writing issues."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Accurately identifies structural and grammatical weaknesses while providing a clear, organized framework for concrete improvements aligned with the essay's theme."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Mischaracterizes the essay's quality and cuts off mid-sentence; advice is vague, contradictory, and poorly aligned with the actual text.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates paragraph numbers and overpraises a weak draft; offers only generic, unactionable praise without addressing core writing issues.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 3, \"actionability\": 4, \"rationale\": \"Accurately identifies structural and grammatical weaknesses while providing a clear, organized framework for concrete improvements aligned with the essay's theme.\"}\n  ]\n}",
+  "error": null
+}

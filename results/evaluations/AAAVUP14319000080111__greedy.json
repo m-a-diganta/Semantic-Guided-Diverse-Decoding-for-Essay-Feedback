@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000080111",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.569946050643921,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000080111",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000080111",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly praises strong logical reasoning for a disjointed essay and cuts off mid-sentence, significantly reducing its usefulness. While it references some essay elements like mountains and hovering vehicles, much of the advice is generic or misattributes content (e.g., Earth's composition), and lacks concrete revision steps."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises strong logical reasoning for a disjointed essay and cuts off mid-sentence, significantly reducing its usefulness. While it references some essay elements like mountains and hovering vehicles, much of the advice is generic or misattributes content (e.g., Earth's composition), and lacks concrete revision steps.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

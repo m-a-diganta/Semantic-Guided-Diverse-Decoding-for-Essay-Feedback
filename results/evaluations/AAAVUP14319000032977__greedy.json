@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000032977",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.3864030838012695,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000032977",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 10,
+          "evidence": 9,
+          "organisation": 9,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000032977",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "The feedback mischaracterizes the essay's quality and hallucinates expert quotes, reducing its practical value. It relies on generic writing advice rather than addressing the specific spelling errors and weak analysis in this draft, though it does outline clear categories for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"The feedback mischaracterizes the essay's quality and hallucinates expert quotes, reducing its practical value. It relies on generic writing advice rather than addressing the specific spelling errors and weak analysis in this draft, though it does outline clear categories for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

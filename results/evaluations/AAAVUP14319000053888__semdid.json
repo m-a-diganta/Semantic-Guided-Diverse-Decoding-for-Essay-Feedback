@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000053888",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 124.92634463310242,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7235882878303528,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.817188560962677,
+        0.6712905764579773
+      ],
+      [
+        0.817188560962677,
+        1.0,
+        0.6822858452796936
+      ],
+      [
+        0.6712905764579773,
+        0.6822858452796936,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000053888",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 9,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 1,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000053888",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Provides structured feedback across key writing dimensions with moderate references to Venus and the essay’s claims, but relies on somewhat generic advice that could apply to many science essays."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Offers vague, abstract criticism about tone and flow without quoting or addressing specific passages, leaving the student with little direction for revision."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Attempts detailed critique with a numbered list but suffers from convoluted phrasing and misaligned suggestions that do not accurately reflect the essay’s actual arguments or focus."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Provides structured feedback across key writing dimensions with moderate references to Venus and the essay’s claims, but relies on somewhat generic advice that could apply to many science essays.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Offers vague, abstract criticism about tone and flow without quoting or addressing specific passages, leaving the student with little direction for revision.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Attempts detailed critique with a numbered list but suffers from convoluted phrasing and misaligned suggestions that do not accurately reflect the essay’s actual arguments or focus.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "essay_id": "fx_001",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 3.344327926635742,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "fx_001",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 3,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": null
+}

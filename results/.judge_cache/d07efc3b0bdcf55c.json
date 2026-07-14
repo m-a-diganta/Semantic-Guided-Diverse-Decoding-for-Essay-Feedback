@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000136254",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises the essay as excellent and ignores its severe mechanical and structural flaws, offering no concrete steps for improvement."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "It identifies fragmentation and evidence gaps but hallucinates a reference to Mars and overstates the draft's quality, limiting its practical value."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 4.0,
+      "actionability": 3.0,
+      "rationale": "It directly engages with the essay’s electronics analogy and suggests adding statistics to strengthen it, though it still overpraises the current draft."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises the essay as excellent and ignores its severe mechanical and structural flaws, offering no concrete steps for improvement.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"It identifies fragmentation and evidence gaps but hallucinates a reference to Mars and overstates the draft's quality, limiting its practical value.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"It directly engages with the essay’s electronics analogy and suggests adding statistics to strengthen it, though it still overpraises the current draft.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000105255",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback identifies valid areas for improvement but relies on generic writing advice rather than referencing the essay's specific content, quotes, or structure. The suggestions are too broad to guide concrete revisions without further clarification."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies valid areas for improvement but relies on generic writing advice rather than referencing the essay's specific content, quotes, or structure. The suggestions are too broad to guide concrete revisions without further clarification.\"\n    }\n  ]\n}",
+  "error": null
+}

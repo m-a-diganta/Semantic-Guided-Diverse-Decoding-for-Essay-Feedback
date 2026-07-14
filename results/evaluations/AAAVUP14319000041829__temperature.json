@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000041829",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.070104122161865,
+  "diversity": {
+    "mean_pairwise_similarity": 0.8198314309120178,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7963102459907532,
+        0.8273137807846069
+      ],
+      [
+        0.7963102459907532,
+        1.0,
+        0.8358703851699829
+      ],
+      [
+        0.8273137807846069,
+        0.8358703851699829,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000041829",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 10,
+          "organisation": 13,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 9,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000041829",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Feedback is highly generic and template-like, failing to reference specific sentences or structural issues in the essay. Suggestions like 'smoother internal coherence' are too vague to guide concrete revisions."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Contains hallucinated example sentences that do not match the essay's content and cuts off mid-sentence, making it incomplete. Despite mentioning source terms, the advice is misaligned and practically unusable."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Provides coherent, standard writing advice and notes a minor specific detail (degree formatting), but remains broad on core issues like quote integration. Lacks concrete examples for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Feedback is highly generic and template-like, failing to reference specific sentences or structural issues in the essay. Suggestions like 'smoother internal coherence' are too vague to guide concrete revisions.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Contains hallucinated example sentences that do not match the essay's content and cuts off mid-sentence, making it incomplete. Despite mentioning source terms, the advice is misaligned and practically unusable.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Provides coherent, standard writing advice and notes a minor specific detail (degree formatting), but remains broad on core issues like quote integration. Lacks concrete examples for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

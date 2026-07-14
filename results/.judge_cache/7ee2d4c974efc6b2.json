@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000032977",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback is generic and misjudges the essay's quality, offering broad advice that does not reference specific errors or content from the text."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The response is contradictory and vague, failing to pinpoint actual issues or provide clear, concrete steps for revision."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "It asks a direct question to prompt deeper analysis and acknowledges specific structural and grammatical weaknesses, offering slightly more targeted guidance."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is generic and misjudges the essay's quality, offering broad advice that does not reference specific errors or content from the text.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The response is contradictory and vague, failing to pinpoint actual issues or provide clear, concrete steps for revision.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"It asks a direct question to prompt deeper analysis and acknowledges specific structural and grammatical weaknesses, offering slightly more targeted guidance.\"\n    }\n  ]\n}",
+  "error": null
+}

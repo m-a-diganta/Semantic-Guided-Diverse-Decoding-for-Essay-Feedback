@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000031860",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.898898124694824,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000031860",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 5,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000031860",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is overly generic and falsely praises the essay's quality, completely missing its numerous spelling, grammatical, and factual errors. It offers vague suggestions without concrete steps to address the actual issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is overly generic and falsely praises the essay's quality, completely missing its numerous spelling, grammatical, and factual errors. It offers vague suggestions without concrete steps to address the actual issues.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

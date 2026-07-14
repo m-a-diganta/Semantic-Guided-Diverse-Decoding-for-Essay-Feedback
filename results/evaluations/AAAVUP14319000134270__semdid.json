@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000134270",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 147.3733732700348,
+  "diversity": {
+    "mean_pairwise_similarity": 0.4714749753475189,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.6632866859436035,
+        0.4203570485115051
+      ],
+      [
+        0.6632866859436035,
+        1.0,
+        0.33078110218048096
+      ],
+      [
+        0.4203570485115051,
+        0.33078110218048096,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000134270",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 10,
+          "organisation": 8,
+          "mechanics": 3
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 11,
+          "organisation": 11,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000134270",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Misdiagnoses the essay's poor structure and offers generic writing advice that fails to address the severe spelling errors or abrupt thematic shift."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Hallucinates essay content and suggests irrelevant academic references or structure, making it completely unhelpful for this specific text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Correctly identifies the essay's religious focus and offers relevant suggestions, but overpraises mechanics and misses critical spelling and grammar issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Misdiagnoses the essay's poor structure and offers generic writing advice that fails to address the severe spelling errors or abrupt thematic shift.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Hallucinates essay content and suggests irrelevant academic references or structure, making it completely unhelpful for this specific text.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Correctly identifies the essay's religious focus and offers relevant suggestions, but overpraises mechanics and misses critical spelling and grammar issues.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

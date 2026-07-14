@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000081077",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises factual inaccuracies (e.g., claiming the essay cites an abundance of oxygen) and offers only generic praise, providing no concrete steps for revision."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 1.0,
+      "rationale": "Identical to Variant 1; it misreads the student's claims and fails to address critical scientific errors or mechanical issues, leaving the student without actionable guidance."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 1.0,
+      "rationale": "Same as previous variants; the truncated response continues to offer unconstructive praise and omits any specific, actionable recommendations for improving accuracy or writing mechanics."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises factual inaccuracies (e.g., claiming the essay cites an abundance of oxygen) and offers only generic praise, providing no concrete steps for revision.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"Identical to Variant 1; it misreads the student's claims and fails to address critical scientific errors or mechanical issues, leaving the student without actionable guidance.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"Same as previous variants; the truncated response continues to offer unconstructive praise and omits any specific, actionable recommendations for improving accuracy or writing mechanics.\"\n    }\n  ]\n}",
+  "error": null
+}

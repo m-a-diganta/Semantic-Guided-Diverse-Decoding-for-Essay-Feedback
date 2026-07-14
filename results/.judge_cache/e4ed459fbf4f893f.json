@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000097072",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback incorrectly praises the essay's clarity and analytical skills while hallucinating content like 'Mars missions' that isn't in the text. It offers generic writing advice without concrete steps to fix the essay's fundamental run-on structure and grammatical errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises the essay's clarity and analytical skills while hallucinating content like 'Mars missions' that isn't in the text. It offers generic writing advice without concrete steps to fix the essay's fundamental run-on structure and grammatical errors.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000108133",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Feedback hallucinates details not in the essay and offers only vague praise, providing no useful or actionable guidance."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Suggests generic improvements on organization and broader implications without referencing specific essay content or concrete revision steps."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Identifies relevant issues like repetition and argument focus, offering moderately actionable advice on transitions and clarity despite lacking direct content references."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Feedback hallucinates details not in the essay and offers only vague praise, providing no useful or actionable guidance.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Suggests generic improvements on organization and broader implications without referencing specific essay content or concrete revision steps.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Identifies relevant issues like repetition and argument focus, offering moderately actionable advice on transitions and clarity despite lacking direct content references.\"}\n  ]\n}",
+  "error": null
+}

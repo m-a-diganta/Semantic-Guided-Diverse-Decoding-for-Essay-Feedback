@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000049986",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.420345067977905,
+  "diversity": {
+    "mean_pairwise_similarity": 0.5915073752403259,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.5825991630554199,
+        0.6674668788909912
+      ],
+      [
+        0.5825991630554199,
+        1.000000238418579,
+        0.5244559645652771
+      ],
+      [
+        0.6674668788909912,
+        0.5244559645652771,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000049986",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 9,
+          "organisation": 6,
+          "mechanics": 4
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 2,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": false,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 0,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000049986",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Overly positive and misaligned with the essay's actual level; suggestions like adding subheadings or using spell-check are generic and not concrete writing improvements."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Completely misidentifies the essay's topic as Mars and references non-existent elements, rendering all advice irrelevant and unhelpful."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Provides vague formatting suggestions and incorrectly claims no substantial flaws, failing to address the essay's pervasive spelling errors and repetitive structure."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overly positive and misaligned with the essay's actual level; suggestions like adding subheadings or using spell-check are generic and not concrete writing improvements.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Completely misidentifies the essay's topic as Mars and references non-existent elements, rendering all advice irrelevant and unhelpful.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Provides vague formatting suggestions and incorrectly claims no substantial flaws, failing to address the essay's pervasive spelling errors and repetitive structure.\"}\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000140468",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback offers vague praise and generic suggestions that ignore the essay's severe grammatical errors and lack of concrete examples. It fails to provide clear steps for improvement."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "While it references specific essay elements and uses a structured format, it contains factual errors (misidentifying Venus as an asteroid) and contradictory advice that undermine its practical value."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 4.0,
+      "actionability": 1.0,
+      "rationale": "The feedback directly cites the essay's content but overpraises a weak draft, offers abstract suggestions, and cuts off mid-sentence, leaving the student without clear guidance."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback offers vague praise and generic suggestions that ignore the essay's severe grammatical errors and lack of concrete examples. It fails to provide clear steps for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"While it references specific essay elements and uses a structured format, it contains factual errors (misidentifying Venus as an asteroid) and contradictory advice that undermine its practical value.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 4, \"actionability\": 1, \"rationale\": \"The feedback directly cites the essay's content but overpraises a weak draft, offers abstract suggestions, and cuts off mid-sentence, leaving the student without clear guidance.\"}\n  ]\n}",
+  "error": null
+}

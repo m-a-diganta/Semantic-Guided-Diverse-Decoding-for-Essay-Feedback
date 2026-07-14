@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000103792",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback is repetitive, cut off mid-sentence, and inaccurately praises the essay's argument as well-thought-out. It offers vague suggestions without concrete steps to address the severe grammatical and structural issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Identical in content and quality to Variant 1; it misjudges the essay's low score, repeats itself across sections, and lacks actionable guidance due to being abruptly cut off."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Shares the same flaws as the others: superficial references to Venus/NASA, repetitive phrasing across categories, and an abrupt cutoff that prevents any concrete recommendations."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is repetitive, cut off mid-sentence, and inaccurately praises the essay's argument as well-thought-out. It offers vague suggestions without concrete steps to address the severe grammatical and structural issues.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Identical in content and quality to Variant 1; it misjudges the essay's low score, repeats itself across sections, and lacks actionable guidance due to being abruptly cut off.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Shares the same flaws as the others: superficial references to Venus/NASA, repetitive phrasing across categories, and an abrupt cutoff that prevents any concrete recommendations.\"\n    }\n  ]\n}",
+  "error": null
+}

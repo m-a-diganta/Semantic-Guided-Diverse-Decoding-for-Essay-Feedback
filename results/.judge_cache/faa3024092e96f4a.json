@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000031860",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback incorrectly praises the essay as well-written despite pervasive spelling and grammar errors, missing the most critical area for improvement. While it references specific content like Venus's density and surface features, the advice remains vague and lacks concrete revision steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Identical in content to Variant 1; it overlooks the essay's significant mechanical issues and offers generic suggestions like delve deeper without providing actionable strategies or precise textual references."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Identical to the previous variants; although it mentions specific essay details, the feedback is overly generic and fails to address the fundamental writing mechanics that would most help a student at this level."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises the essay as well-written despite pervasive spelling and grammar errors, missing the most critical area for improvement. While it references specific content like Venus's density and surface features, the advice remains vague and lacks concrete revision steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Identical in content to Variant 1; it overlooks the essay's significant mechanical issues and offers generic suggestions like delve deeper without providing actionable strategies or precise textual references.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Identical to the previous variants; although it mentions specific essay details, the feedback is overly generic and fails to address the fundamental writing mechanics that would most help a student at this level.\"\n    }\n  ]\n}",
+  "error": null
+}

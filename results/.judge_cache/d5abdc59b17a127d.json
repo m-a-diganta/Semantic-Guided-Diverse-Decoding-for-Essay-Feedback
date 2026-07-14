@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000103305",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Provides a standard rubric-style breakdown but relies on generic writing advice and misjudges the essay's weak execution, offering vague improvement steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Directly quotes essay phrases and identifies structural issues, but advice remains somewhat abstract and introduces irrelevant context."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Contradictory and overly verbose; mischaracterizes the essay's disjointed nature and offers vague, non-concrete suggestions without clear implementation guidance."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides a standard rubric-style breakdown but relies on generic writing advice and misjudges the essay's weak execution, offering vague improvement steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Directly quotes essay phrases and identifies structural issues, but advice remains somewhat abstract and introduces irrelevant context.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Contradictory and overly verbose; mischaracterizes the essay's disjointed nature and offers vague, non-concrete suggestions without clear implementation guidance.\"\n    }\n  ]\n}",
+  "error": null
+}

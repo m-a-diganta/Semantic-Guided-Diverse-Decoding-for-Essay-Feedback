@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000035026",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises a poorly written essay and ignores critical issues like grammar, logical gaps, and misinterpreted quotes. It cuts off mid-sentence before offering any concrete revision steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Identical to Variant 1; it misjudges the essay's low quality and provides no actionable guidance, ending abruptly without suggesting improvements."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Shares the same flaws by offering generic praise instead of targeted critique. The truncated response leaves the student with no clear direction for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises a poorly written essay and ignores critical issues like grammar, logical gaps, and misinterpreted quotes. It cuts off mid-sentence before offering any concrete revision steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Identical to Variant 1; it misjudges the essay's low quality and provides no actionable guidance, ending abruptly without suggesting improvements.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Shares the same flaws by offering generic praise instead of targeted critique. The truncated response leaves the student with no clear direction for revision.\"\n    }\n  ]\n}",
+  "error": null
+}

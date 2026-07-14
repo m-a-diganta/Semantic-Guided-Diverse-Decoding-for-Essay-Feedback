@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000027965",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.578701972961426,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000027965",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 11,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000027965",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly praises the essay's logic and organization while missing severe spelling, grammatical, and factual errors. Its suggestions are vague, generic, and cut off mid-sentence, offering little concrete guidance for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises the essay's logic and organization while missing severe spelling, grammatical, and factual errors. Its suggestions are vague, generic, and cut off mid-sentence, offering little concrete guidance for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000144265",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.370058059692383,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7653937339782715,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.7333072423934937,
+        0.7469803094863892
+      ],
+      [
+        0.7333072423934937,
+        1.0000001192092896,
+        0.815893828868866
+      ],
+      [
+        0.7469803094863892,
+        0.815893828868866,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000144265",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 4,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000144265",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Generic praise mixed with factually incorrect references to Venus that mislead the student, offering vague advice on structure rather than addressing actual essay flaws."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Structured but drifts into irrelevant topics like Mars and provides broad suggestions that ignore the essay's specific mechanical and argumentative issues."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Attempts to address structure and conclusion focus but is undermined by significant factual inaccuracies about Venus and lacks concrete revision steps."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Generic praise mixed with factually incorrect references to Venus that mislead the student, offering vague advice on structure rather than addressing actual essay flaws.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Structured but drifts into irrelevant topics like Mars and provides broad suggestions that ignore the essay's specific mechanical and argumentative issues.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Attempts to address structure and conclusion focus but is undermined by significant factual inaccuracies about Venus and lacks concrete revision steps.\"}\n  ]\n}",
+    "error": null
+  }
+}

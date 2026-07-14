@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000098179",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 22.180450201034546,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0,
+    "pairwise_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000098179",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 16,
+          "organisation": 6,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 16,
+          "organisation": 6,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 16,
+          "organisation": 6,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000098179",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is entirely generic and fails to reference any specific details, citations, or arguments from the essay. Its suggestions are vague and lack concrete steps, making it of limited practical value for revision."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Identical to Variant 1; it offers standard writing advice without engaging with the essay's actual content or providing targeted, actionable revisions."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Same as the others; the feedback is boilerplate and does not cite specific passages or give concrete instructions, limiting its practical value."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is entirely generic and fails to reference any specific details, citations, or arguments from the essay. Its suggestions are vague and lack concrete steps, making it of limited practical value for revision.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Identical to Variant 1; it offers standard writing advice without engaging with the essay's actual content or providing targeted, actionable revisions.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Same as the others; the feedback is boilerplate and does not cite specific passages or give concrete instructions, limiting its practical value.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

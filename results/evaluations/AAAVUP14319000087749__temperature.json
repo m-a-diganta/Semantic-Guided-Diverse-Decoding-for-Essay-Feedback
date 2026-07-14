@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000087749",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.023061037063599,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6494958996772766,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.6771436333656311,
+        0.5614219903945923
+      ],
+      [
+        0.6771436333656311,
+        1.000000238418579,
+        0.709922194480896
+      ],
+      [
+        0.5614219903945923,
+        0.709922194480896,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000087749",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 5,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 9,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000087749",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback offers generic historical examples that do not address the essay's specific factual inaccuracies, grammatical errors, or structural weaknesses."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "It correctly identifies areas for improvement in organization and argument depth but misinterprets some of the student's claims, making the suggested revisions less directly applicable."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 4.0,
+        "specificity": 4.0,
+        "actionability": 5.0,
+        "rationale": "It directly targets the essay's evidentiary and structural gaps while providing a concrete rewritten example that models improved phrasing, factual framing, and academic transitions."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"The feedback offers generic historical examples that do not address the essay's specific factual inaccuracies, grammatical errors, or structural weaknesses.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"It correctly identifies areas for improvement in organization and argument depth but misinterprets some of the student's claims, making the suggested revisions less directly applicable.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 5, \"rationale\": \"It directly targets the essay's evidentiary and structural gaps while providing a concrete rewritten example that models improved phrasing, factual framing, and academic transitions.\"}\n  ]\n}",
+    "error": null
+  }
+}

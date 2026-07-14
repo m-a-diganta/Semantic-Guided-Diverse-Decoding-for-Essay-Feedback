@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000119347",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 1.2599742412567139,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000119347",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 4,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000119347",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback incorrectly praises the essay's analytical skills and organization despite its disjointed structure, spelling errors, and repetition. It offers only vague suggestions without concrete steps to address the actual issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises the essay's analytical skills and organization despite its disjointed structure, spelling errors, and repetition. It offers only vague suggestions without concrete steps to address the actual issues.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

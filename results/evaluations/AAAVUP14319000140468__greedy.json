@@ -1,0 +1,49 @@
+{
+  "essay_id": "AAAVUP14319000140468",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 1.8354003429412842,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000140468",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 5,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence"
+    ],
+    "n_union": 2
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000140468",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback mischaracterizes the essay's low quality as 'strong critical thinking' and offers vague, generic suggestions that completely ignore fundamental grammatical, structural, and factual issues. It lacks concrete steps to help the student actually improve their writing."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback mischaracterizes the essay's low quality as 'strong critical thinking' and offers vague, generic suggestions that completely ignore fundamental grammatical, structural, and factual issues. It lacks concrete steps to help the student actually improve their writing.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

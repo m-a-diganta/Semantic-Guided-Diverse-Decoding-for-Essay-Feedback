@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000096838",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback relies on generic writing advice and completely overlooks the essay's numerous grammatical errors, awkward phrasing, and shallow analysis. It offers vague suggestions rather than concrete steps to address the specific issues present in this draft."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic writing advice and completely overlooks the essay's numerous grammatical errors, awkward phrasing, and shallow analysis. It offers vague suggestions rather than concrete steps to address the specific issues present in this draft.\"\n    }\n  ]\n}",
+  "error": null
+}

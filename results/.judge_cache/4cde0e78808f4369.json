@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000087749",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback references the essay's topics but mischaracterizes its quality and remains too vague to genuinely help a student with noticeable grammatical, factual, and structural issues. It suggests broad improvements like 'refining structure' without providing concrete steps or addressing the essay's mechanical errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback references the essay's topics but mischaracterizes its quality and remains too vague to genuinely help a student with noticeable grammatical, factual, and structural issues. It suggests broad improvements like 'refining structure' without providing concrete steps or addressing the essay's mechanical errors.\"\n    }\n  ]\n}",
+  "error": null
+}

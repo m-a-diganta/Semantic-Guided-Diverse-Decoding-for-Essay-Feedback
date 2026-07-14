@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000103305",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback misinterprets a key detail about mechanical computers and relies on generic writing advice rather than addressing the essay’s pervasive spelling, grammar, and structural flaws. Its suggestions are vague and lack concrete steps, limiting its usefulness for targeted revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback misinterprets a key detail about mechanical computers and relies on generic writing advice rather than addressing the essay’s pervasive spelling, grammar, and structural flaws. Its suggestions are vague and lack concrete steps, limiting its usefulness for targeted revision.\"\n    }\n  ]\n}",
+  "error": null
+}

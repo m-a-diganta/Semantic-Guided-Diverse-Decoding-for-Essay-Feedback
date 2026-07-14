@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000096104",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 3.1889617443084717,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096104",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096104",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback relies on generic praise and vague suggestions, failing to reference specific content from the essay or address its noticeable mechanical errors. It lacks concrete steps for improvement, limiting its practical value."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic praise and vague suggestions, failing to reference specific content from the essay or address its noticeable mechanical errors. It lacks concrete steps for improvement, limiting its practical value.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

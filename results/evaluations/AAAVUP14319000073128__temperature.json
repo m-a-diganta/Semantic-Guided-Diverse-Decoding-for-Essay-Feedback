@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000073128",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.937388896942139,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7340840697288513,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7440807819366455,
+        0.7797487378120422
+      ],
+      [
+        0.7440807819366455,
+        1.0,
+        0.6784226298332214
+      ],
+      [
+        0.7797487378120422,
+        0.6784226298332214,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000073128",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 11,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 13,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000073128",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "References actual Venus facts from the essay but includes irrelevant hallucinations (geysers) and offers only vague praise without concrete steps to fix the informal tone or repetitive structure."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Completely mischaracterizes the essay's quality as exceptional, hallucinates structural elements and a concluding quote, and provides zero constructive guidance for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Incomplete and relies on generic academic templates with hallucinated quotes, while suggesting counterproductive techniques like repetition instead of addressing the essay's actual weaknesses."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"References actual Venus facts from the essay but includes irrelevant hallucinations (geysers) and offers only vague praise without concrete steps to fix the informal tone or repetitive structure.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Completely mischaracterizes the essay's quality as exceptional, hallucinates structural elements and a concluding quote, and provides zero constructive guidance for improvement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Incomplete and relies on generic academic templates with hallucinated quotes, while suggesting counterproductive techniques like repetition instead of addressing the essay's actual weaknesses.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000069670",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.090566873550415,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7279869914054871,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.747817873954773,
+        0.6553804874420166
+      ],
+      [
+        0.747817873954773,
+        1.0000001192092896,
+        0.7807625532150269
+      ],
+      [
+        0.6553804874420166,
+        0.7807625532150269,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000069670",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 8,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 10,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000069670",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Misidentifies strengths and contains factual errors while cutting off mid-sentence, failing to address the essay's severe grammatical and structural issues."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Praises non-existent academic rigor and suggests scientifically inaccurate details, offering only vague advice that ignores foundational writing problems."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Correctly identifies organizational and mechanical flaws but provides overly complex suggestions that are mismatched to the student's foundational skill level."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Misidentifies strengths and contains factual errors while cutting off mid-sentence, failing to address the essay's severe grammatical and structural issues.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Praises non-existent academic rigor and suggests scientifically inaccurate details, offering only vague advice that ignores foundational writing problems.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"Correctly identifies organizational and mechanical flaws but provides overly complex suggestions that are mismatched to the student's foundational skill level.\"}\n  ]\n}",
+    "error": null
+  }
+}

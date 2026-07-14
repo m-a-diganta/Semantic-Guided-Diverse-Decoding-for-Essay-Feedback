@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000041829",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.4448158740997314,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000041829",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 8,
+          "organisation": 13,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000041829",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback mischaracterizes the essay by claiming strong arguments and sufficient evidence when the student merely pastes quotes without analysis. Its suggestions are generic and lack concrete steps for improving quote integration or addressing the noted mechanical errors."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback mischaracterizes the essay by claiming strong arguments and sufficient evidence when the student merely pastes quotes without analysis. Its suggestions are generic and lack concrete steps for improving quote integration or addressing the noted mechanical errors.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

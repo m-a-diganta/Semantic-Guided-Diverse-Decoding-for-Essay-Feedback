@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000104637",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Overly positive and generic; fails to address the essay's repetitive structure, mechanical errors, or weak analysis."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Correctly identifies cohesion and transition needs relevant to the text, but delivers advice in a dense, abstract manner with limited concrete revision steps."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Provides a clear structural framework and concrete revision steps, though the suggested rewrite introduces concepts not present in the original essay."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Overly positive and generic; fails to address the essay's repetitive structure, mechanical errors, or weak analysis.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Correctly identifies cohesion and transition needs relevant to the text, but delivers advice in a dense, abstract manner with limited concrete revision steps.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 4,\n      \"specificity\": 3,\n      \"actionability\": 4,\n      \"rationale\": \"Provides a clear structural framework and concrete revision steps, though the suggested rewrite introduces concepts not present in the original essay.\"\n    }\n  ]\n}",
+  "error": null
+}

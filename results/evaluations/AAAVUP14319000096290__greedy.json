@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000096290",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 3.2471940517425537,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096290",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096290",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback identifies relevant thematic areas but relies on generic writing advice rather than citing specific sentences or structural flaws in the essay, limiting its practical value for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies relevant thematic areas but relies on generic writing advice rather than citing specific sentences or structural flaws in the essay, limiting its practical value for revision.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

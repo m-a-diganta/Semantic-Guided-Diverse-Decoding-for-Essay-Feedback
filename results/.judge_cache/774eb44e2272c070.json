@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000037277",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "References specific essay topics but contains a factual misquote and relies on generic writing advice rather than concrete, tailored steps for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"References specific essay topics but contains a factual misquote and relies on generic writing advice rather than concrete, tailored steps for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

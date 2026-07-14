@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000027965",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Feedback is polite but generic, missing the essay's core issues like severe repetition and factual inaccuracies about CO2 versus oxygen. Suggestions lack concrete steps for immediate improvement."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Feedback hallucinates content not in the essay (Saturn, Mars colonization) and misreads the structure, making it completely unhelpful and confusing for the student."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 4.0,
+      "actionability": 3.0,
+      "rationale": "Correctly identifies the essay's lack of depth and factual confusion about breathable atmospheres, but suggestions remain somewhat abstract for a student needing foundational writing support."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Feedback is polite but generic, missing the essay's core issues like severe repetition and factual inaccuracies about CO2 versus oxygen. Suggestions lack concrete steps for immediate improvement.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Feedback hallucinates content not in the essay (Saturn, Mars colonization) and misreads the structure, making it completely unhelpful and confusing for the student.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"Correctly identifies the essay's lack of depth and factual confusion about breathable atmospheres, but suggestions remain somewhat abstract for a student needing foundational writing support.\"\n    }\n  ]\n}",
+  "error": null
+}

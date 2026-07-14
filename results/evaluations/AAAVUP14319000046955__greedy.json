@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000046955",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.083680868148804,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 4,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly claims the essay lacks numerical data and is overly technical, completely missing its numerous spelling, grammar, and formatting errors. Its suggestions are vague and fail to provide concrete steps tailored to the student's actual text."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly claims the essay lacks numerical data and is overly technical, completely missing its numerous spelling, grammar, and formatting errors. Its suggestions are vague and fail to provide concrete steps tailored to the student's actual text.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000140051",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The feedback completely misreads the essay, praising non-existent analytical depth and citing sources or quotes that are not present. Its advice on formatting and evidence is irrelevant to the student's actual text, making it unhelpful and inactionable."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback completely misreads the essay, praising non-existent analytical depth and citing sources or quotes that are not present. Its advice on formatting and evidence is irrelevant to the student's actual text, making it unhelpful and inactionable.\"\n    }\n  ]\n}",
+  "error": null
+}

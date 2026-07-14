@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000061939",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.689115762710571,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7911179065704346,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8017199039459229,
+        0.8234816193580627
+      ],
+      [
+        0.8017199039459229,
+        1.0,
+        0.7481522560119629
+      ],
+      [
+        0.8234816193580627,
+        0.7481522560119629,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000061939",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 8,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 8,
+          "organisation": 8,
+          "mechanics": 2
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000061939",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Mischaracterizes the essay's quality and contains factual inaccuracies about Venus (e.g., 'thin air'), while offering vague, confusing suggestions that ignore the text's critical grammatical and structural flaws."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Provides generic structural advice relevant to science writing but completely overlooks the essay's severe sentence fragments and spelling errors, and is cut off mid-sentence, limiting practical value."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Correctly identifies spelling and grammar issues but hallucinates non-existent content like meteorites and literature references, making the guidance contradictory and poorly targeted."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Mischaracterizes the essay's quality and contains factual inaccuracies about Venus (e.g., 'thin air'), while offering vague, confusing suggestions that ignore the text's critical grammatical and structural flaws.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides generic structural advice relevant to science writing but completely overlooks the essay's severe sentence fragments and spelling errors, and is cut off mid-sentence, limiting practical value.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Correctly identifies spelling and grammar issues but hallucinates non-existent content like meteorites and literature references, making the guidance contradictory and poorly targeted.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

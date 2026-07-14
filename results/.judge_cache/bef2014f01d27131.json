@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000087749",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback offers generic historical examples that do not address the essay's specific factual inaccuracies, grammatical errors, or structural weaknesses."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "It correctly identifies areas for improvement in organization and argument depth but misinterprets some of the student's claims, making the suggested revisions less directly applicable."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 4.0,
+      "actionability": 5.0,
+      "rationale": "It directly targets the essay's evidentiary and structural gaps while providing a concrete rewritten example that models improved phrasing, factual framing, and academic transitions."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"The feedback offers generic historical examples that do not address the essay's specific factual inaccuracies, grammatical errors, or structural weaknesses.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"It correctly identifies areas for improvement in organization and argument depth but misinterprets some of the student's claims, making the suggested revisions less directly applicable.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 5, \"rationale\": \"It directly targets the essay's evidentiary and structural gaps while providing a concrete rewritten example that models improved phrasing, factual framing, and academic transitions.\"}\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000133627",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 83.24149441719055,
+  "diversity": {
+    "mean_pairwise_similarity": 0.4884786605834961,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.7982305288314819,
+        0.3457235097885132
+      ],
+      [
+        0.7982305288314819,
+        1.0,
+        0.3214819133281708
+      ],
+      [
+        0.3457235097885132,
+        0.3214819133281708,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000133627",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 4,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 6,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 5,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000133627",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Identifies structural and mechanical issues but relies on broad suggestions without quoting specific lines or addressing the essay's repetitive phrasing."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Mentions repetition and cohesion but includes an inaccurate quote and offers vague phrasing suggestions without concrete examples."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Provides only generic praise with no constructive feedback or reference to the essay's actual content, errors, or structure."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Identifies structural and mechanical issues but relies on broad suggestions without quoting specific lines or addressing the essay's repetitive phrasing.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Mentions repetition and cohesion but includes an inaccurate quote and offers vague phrasing suggestions without concrete examples.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Provides only generic praise with no constructive feedback or reference to the essay's actual content, errors, or structure.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

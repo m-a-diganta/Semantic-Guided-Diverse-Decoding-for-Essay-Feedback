@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000025858",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback relies heavily on generic writing advice and misquotes the essay, offering vague suggestions like 'structure can be improved' without concrete steps to fix the disjointed paragraphs or pervasive grammatical errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies heavily on generic writing advice and misquotes the essay, offering vague suggestions like 'structure can be improved' without concrete steps to fix the disjointed paragraphs or pervasive grammatical errors.\"\n    }\n  ]\n}",
+  "error": null
+}

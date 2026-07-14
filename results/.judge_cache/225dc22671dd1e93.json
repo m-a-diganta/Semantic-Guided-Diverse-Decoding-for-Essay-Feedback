@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000046955",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback offers generic structural advice and oddly suggests bullet points for a standard essay, lacking concrete references to the student's actual text or clear revision steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Highly vague and template-like, it fails to cite specific essay content or provide concrete revision steps, making it difficult for the student to apply."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 4.0,
+      "actionability": 2.0,
+      "rationale": "It directly engages with the essay's specific claims and quotes, though it hallucinates a Mars comparison and lacks concrete steps for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback offers generic structural advice and oddly suggests bullet points for a standard essay, lacking concrete references to the student's actual text or clear revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Highly vague and template-like, it fails to cite specific essay content or provide concrete revision steps, making it difficult for the student to apply.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 2, \"rationale\": \"It directly engages with the essay's specific claims and quotes, though it hallucinates a Mars comparison and lacks concrete steps for revision.\"}\n  ]\n}",
+  "error": null
+}

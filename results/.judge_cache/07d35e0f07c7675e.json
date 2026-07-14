@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000042855",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises the essay's strong arguments and logical flow despite its evident grammatical and structural flaws, offers no specific references to the text, and provides only vague suggestions for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises the essay's strong arguments and logical flow despite its evident grammatical and structural flaws, offers no specific references to the text, and provides only vague suggestions for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000096104",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 91.48178362846375,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7265167832374573,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.68593430519104,
+        0.8036975860595703
+      ],
+      [
+        0.68593430519104,
+        1.0000001192092896,
+        0.6899183988571167
+      ],
+      [
+        0.8036975860595703,
+        0.6899183988571167,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096104",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 2,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 9,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096104",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Provides generic praise and a vague suggestion for the conclusion without directly quoting or referencing specific essay content, limiting its practical value."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Targets specific paragraphs and essay topics but offers abstract advice on conciseness without demonstrating how to revise the sentences for clarity."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 4.0,
+        "actionability": 1.0,
+        "rationale": "Highly specific to the essay’s quotes and structure but reads as pure praise with no constructive guidance or concrete steps for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Provides generic praise and a vague suggestion for the conclusion without directly quoting or referencing specific essay content, limiting its practical value.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"Targets specific paragraphs and essay topics but offers abstract advice on conciseness without demonstrating how to revise the sentences for clarity.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 4, \"actionability\": 1, \"rationale\": \"Highly specific to the essay’s quotes and structure but reads as pure praise with no constructive guidance or concrete steps for improvement.\"}\n  ]\n}",
+    "error": null
+  }
+}

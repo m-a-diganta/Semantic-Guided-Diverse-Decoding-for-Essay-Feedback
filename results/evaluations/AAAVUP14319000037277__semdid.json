@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000037277",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 82.57247948646545,
+  "diversity": {
+    "mean_pairwise_similarity": 0.5962485671043396,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.7932981252670288,
+        0.4996791481971741
+      ],
+      [
+        0.7932981252670288,
+        1.0,
+        0.4957684278488159
+      ],
+      [
+        0.4996791481971741,
+        0.4957684278488159,
+        1.000000238418579
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000037277",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 10,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 10,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 4,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000037277",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 4.0,
+        "specificity": 4.0,
+        "actionability": 3.0,
+        "rationale": "References specific essay details like sulfuric acid and extreme temperatures to ground its feedback, offering clear structural suggestions, though some phrasing remains slightly broad."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Misses the essay's actual focus by suggesting irrelevant topics like permanent settlements, and lacks concrete references to the provided text or clear revision steps."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Relies heavily on generic praise and vague critiques without citing specific examples from the essay or providing concrete steps for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 3, \"rationale\": \"References specific essay details like sulfuric acid and extreme temperatures to ground its feedback, offering clear structural suggestions, though some phrasing remains slightly broad.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Misses the essay's actual focus by suggesting irrelevant topics like permanent settlements, and lacks concrete references to the provided text or clear revision steps.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Relies heavily on generic praise and vague critiques without citing specific examples from the essay or providing concrete steps for revision.\"}\n  ]\n}",
+    "error": null
+  }
+}

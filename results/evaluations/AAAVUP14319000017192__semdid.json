@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000017192",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 100.8817548751831,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7591308951377869,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7445861101150513,
+        0.7616260647773743
+      ],
+      [
+        0.7445861101150513,
+        1.0000001192092896,
+        0.7711803913116455
+      ],
+      [
+        0.7616260647773743,
+        0.7711803913116455,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000017192",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 7,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 12,
+          "organisation": 3,
+          "mechanics": 4
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 12,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000017192",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Contains irrelevant and factually odd points like 'privacy concerns in space exploration' and suggests inappropriate structural changes like subheadings, reducing its practical value despite identifying general areas for improvement."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Feedback is poorly articulated, hallucinates a quote not present in the essay, and offers vague suggestions that provide little concrete guidance for revision."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 4.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Effectively identifies genuine structural and mechanical issues with specific phrasing examples, though the suggestion to add statistical elements like graphs slightly misaligns with the essay's analytical focus."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Contains irrelevant and factually odd points like 'privacy concerns in space exploration' and suggests inappropriate structural changes like subheadings, reducing its practical value despite identifying general areas for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Feedback is poorly articulated, hallucinates a quote not present in the essay, and offers vague suggestions that provide little concrete guidance for revision.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"Effectively identifies genuine structural and mechanical issues with specific phrasing examples, though the suggestion to add statistical elements like graphs slightly misaligns with the essay's analytical focus.\"}\n  ]\n}",
+    "error": null
+  }
+}

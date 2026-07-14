@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000029253",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Overly positive and vague; fails to address the essay's severe mechanical errors and structural weaknesses, offering only generic suggestions for expansion."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 1.0,
+      "rationale": "References the broad opening sentence effectively but contradicts itself by claiming no mechanical errors exist despite numerous typos and awkward phrasing in the text."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Hallucinates content not present in the essay and provides vague, generic advice that cuts off mid-sentence, offering no concrete steps for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Overly positive and vague; fails to address the essay's severe mechanical errors and structural weaknesses, offering only generic suggestions for expansion.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 1,\n      \"rationale\": \"References the broad opening sentence effectively but contradicts itself by claiming no mechanical errors exist despite numerous typos and awkward phrasing in the text.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Hallucinates content not present in the essay and provides vague, generic advice that cuts off mid-sentence, offering no concrete steps for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

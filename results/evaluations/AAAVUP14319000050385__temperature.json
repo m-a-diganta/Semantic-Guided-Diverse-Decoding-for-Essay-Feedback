@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000050385",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 6.800825834274292,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6162340044975281,
+    "pairwise_matrix": [
+      [
+        1.000000238418579,
+        0.6861611604690552,
+        0.52192223072052
+      ],
+      [
+        0.6861611604690552,
+        0.9999998807907104,
+        0.6406183838844299
+      ],
+      [
+        0.52192223072052,
+        0.6406183838844299,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000050385",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 2,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 3,
+          "organisation": 1,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000050385",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Completely hallucinates content not in the essay (e.g., Mars, cotton candy imagery) and provides irrelevant, vague advice that fails to address the actual text."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 4.0,
+        "actionability": 3.0,
+        "rationale": "Accurately references specific essay details like mission duration and atmospheric conditions, but overlooks severe mechanical errors and offers somewhat broad suggestions."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Correctly identifies repetitive language and superficial arguments but invents non-existent details ('inventoried lands') and provides vague structural recommendations."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Completely hallucinates content not in the essay (e.g., Mars, cotton candy imagery) and provides irrelevant, vague advice that fails to address the actual text.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"Accurately references specific essay details like mission duration and atmospheric conditions, but overlooks severe mechanical errors and offers somewhat broad suggestions.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Correctly identifies repetitive language and superficial arguments but invents non-existent details ('inventoried lands') and provides vague structural recommendations.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

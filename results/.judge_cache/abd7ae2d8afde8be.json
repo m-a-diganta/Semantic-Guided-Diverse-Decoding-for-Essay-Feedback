@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000093560",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Overly generic and praise-heavy without addressing the essay's actual structural or mechanical issues; suggestions like adding a table are impractical for this format."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Contains a critical factual error (confuses Venus with Mars), is incomplete/cut off, and offers vague structural advice that does not match the essay's format."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Incorrectly identifies the essay's subject as Mars and relies on template-like critiques without providing concrete steps to fix repetitive phrasing or mechanical errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Overly generic and praise-heavy without addressing the essay's actual structural or mechanical issues; suggestions like adding a table are impractical for this format.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Contains a critical factual error (confuses Venus with Mars), is incomplete/cut off, and offers vague structural advice that does not match the essay's format.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Incorrectly identifies the essay's subject as Mars and relies on template-like critiques without providing concrete steps to fix repetitive phrasing or mechanical errors.\"\n    }\n  ]\n}",
+  "error": null
+}

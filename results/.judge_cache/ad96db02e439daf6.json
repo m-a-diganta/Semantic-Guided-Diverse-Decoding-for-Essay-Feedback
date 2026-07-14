@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000033630",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback relies on generic writing advice and incorrectly praises the essay's clarity despite numerous grammatical errors. It lacks direct references to specific quotes or structural flaws, offering vague suggestions that limit its practical value for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic writing advice and incorrectly praises the essay's clarity despite numerous grammatical errors. It lacks direct references to specific quotes or structural flaws, offering vague suggestions that limit its practical value for revision.\"\n    }\n  ]\n}",
+  "error": null
+}

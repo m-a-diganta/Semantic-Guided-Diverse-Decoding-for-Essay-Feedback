@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000087949",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback relies on generic writing advice and inaccurately praises the essay's argumentation, offering little value for a draft that needs foundational improvements. It mentions Venus and paragraph structure but lacks direct references or concrete steps to fix the informal tone, mechanical errors, and structural issues."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic writing advice and inaccurately praises the essay's argumentation, offering little value for a draft that needs foundational improvements. It mentions Venus and paragraph structure but lacks direct references or concrete steps to fix the informal tone, mechanical errors, and structural issues.\"\n    }\n  ]\n}",
+  "error": null
+}

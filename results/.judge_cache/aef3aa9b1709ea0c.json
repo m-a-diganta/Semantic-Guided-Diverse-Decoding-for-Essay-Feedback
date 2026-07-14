@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000073128",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback correctly identifies organizational and depth issues but relies on generic writing advice rather than addressing the essay's specific format as a review. It lacks concrete revision steps to help the student restructure or deepen their analysis."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback correctly identifies organizational and depth issues but relies on generic writing advice rather than addressing the essay's specific format as a review. It lacks concrete revision steps to help the student restructure or deepen their analysis.\"\n    }\n  ]\n}",
+  "error": null
+}

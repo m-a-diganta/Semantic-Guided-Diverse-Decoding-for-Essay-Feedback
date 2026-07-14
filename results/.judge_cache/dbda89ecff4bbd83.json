@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000123612",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback identifies a valid structural gap but remains vague and cuts off mid-sentence, overlooking critical issues like tone, grammar, and logical flow. Its suggestions lack concrete steps for the student to implement effectively."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies a valid structural gap but remains vague and cuts off mid-sentence, overlooking critical issues like tone, grammar, and logical flow. Its suggestions lack concrete steps for the student to implement effectively.\"\n    }\n  ]\n}",
+  "error": null
+}

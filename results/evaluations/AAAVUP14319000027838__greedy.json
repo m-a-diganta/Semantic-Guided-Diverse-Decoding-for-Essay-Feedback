@@ -1,0 +1,49 @@
+{
+  "essay_id": "AAAVUP14319000027838",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 2.4172098636627197,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence"
+    ],
+    "n_union": 2
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback references the essay's content on atmospheric hazards but overlooks critical foundational errors and offers vague, high-level suggestions rather than concrete steps for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback references the essay's content on atmospheric hazards but overlooks critical foundational errors and offers vague, high-level suggestions rather than concrete steps for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

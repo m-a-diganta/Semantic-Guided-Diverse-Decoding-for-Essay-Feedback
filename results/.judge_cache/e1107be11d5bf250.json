@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000129147",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Overly positive and mischaracterizes the essay as arguing both sides; feedback is generic with vague suggestions that lack concrete steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Targets specific mechanical and structural issues while providing a useful rephrasing example, though some advice remains somewhat broad."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Contains inaccurate claims about the essay's content and cuts off abruptly, leaving no concrete or actionable guidance for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overly positive and mischaracterizes the essay as arguing both sides; feedback is generic with vague suggestions that lack concrete steps.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 4, \"rationale\": \"Targets specific mechanical and structural issues while providing a useful rephrasing example, though some advice remains somewhat broad.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Contains inaccurate claims about the essay's content and cuts off abruptly, leaving no concrete or actionable guidance for improvement.\"}\n  ]\n}",
+  "error": null
+}

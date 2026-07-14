@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000098855",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback is highly generic and fails to reference specific errors or content from the essay, such as its numerous spelling mistakes or repetitive paragraph structure. Suggestions like adding 'more specific examples' are too vague to guide meaningful revision."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Identical in substance to Variant 1, this feedback offers broad advice without citing specific passages or mechanical issues from the student's work. The lack of concrete, essay-specific guidance limits its practical value."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Like the others, this variant provides only high-level writing advice that does not address the essay's actual flaws or quote specific text. The abstract suggestions remain too vague for the student to implement effectively."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"The feedback is highly generic and fails to reference specific errors or content from the essay, such as its numerous spelling mistakes or repetitive paragraph structure. Suggestions like adding 'more specific examples' are too vague to guide meaningful revision.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Identical in substance to Variant 1, this feedback offers broad advice without citing specific passages or mechanical issues from the student's work. The lack of concrete, essay-specific guidance limits its practical value.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Like the others, this variant provides only high-level writing advice that does not address the essay's actual flaws or quote specific text. The abstract suggestions remain too vague for the student to implement effectively.\"}\n  ]\n}",
+  "error": null
+}

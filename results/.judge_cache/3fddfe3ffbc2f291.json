@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000035026",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "Mischaracterizes the essay's low quality with inaccurate praise, but provides some relevant structural and mechanical suggestions."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Hallucinates non-existent content and paragraph structure, rendering the feedback misleading and unactionable for this specific essay."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "References actual essay themes but offers vague stylistic advice and overstates the work's quality, limiting its practical value for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Mischaracterizes the essay's low quality with inaccurate praise, but provides some relevant structural and mechanical suggestions.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Hallucinates non-existent content and paragraph structure, rendering the feedback misleading and unactionable for this specific essay.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"References actual essay themes but offers vague stylistic advice and overstates the work's quality, limiting its practical value for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

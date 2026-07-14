@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000127361",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.399930238723755,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000127361",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 10,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000127361",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is highly generic and hallucinates content not present in the essay, completely missing core issues like repetitive phrasing, grammatical errors, and meta-commentary structure. While it briefly references Venus, its suggestions are vague and lack concrete steps for the student to implement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is highly generic and hallucinates content not present in the essay, completely missing core issues like repetitive phrasing, grammatical errors, and meta-commentary structure. While it briefly references Venus, its suggestions are vague and lack concrete steps for the student to implement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

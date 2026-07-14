@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000042855",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 122.7835545539856,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7850561141967773,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7554917335510254,
+        0.7942689657211304
+      ],
+      [
+        0.7554917335510254,
+        1.0,
+        0.8054075241088867
+      ],
+      [
+        0.7942689657211304,
+        0.8054075241088867,
+        0.9999999403953552
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000042855",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 6,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 13,
+          "organisation": 14,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 7,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000042855",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Overly positive and vague; it fails to address the essay's glaring grammatical errors, structural weaknesses, or factual inaccuracies."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Heavily hallucinates quotes, authors, and details not present in the essay, making it confusing and completely unhelpful for revision."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Correctly identifies structural and evidentiary weaknesses with relevant references to the text, though suggestions remain somewhat general."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Overly positive and vague; it fails to address the essay's glaring grammatical errors, structural weaknesses, or factual inaccuracies.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Heavily hallucinates quotes, authors, and details not present in the essay, making it confusing and completely unhelpful for revision.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"Correctly identifies structural and evidentiary weaknesses with relevant references to the text, though suggestions remain somewhat general.\"}\n  ]\n}",
+    "error": null
+  }
+}

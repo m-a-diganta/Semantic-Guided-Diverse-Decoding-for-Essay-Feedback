@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000022523",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback references specific essay details like sulfuric acid clouds and volcanoes, but it overlooks the essay's severe spelling and grammar errors while offering vague advice on structure. Its overly positive tone misaligns with the essay's low quality, reducing its practical value for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback references specific essay details like sulfuric acid clouds and volcanoes, but it overlooks the essay's severe spelling and grammar errors while offering vague advice on structure. Its overly positive tone misaligns with the essay's low quality, reducing its practical value for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

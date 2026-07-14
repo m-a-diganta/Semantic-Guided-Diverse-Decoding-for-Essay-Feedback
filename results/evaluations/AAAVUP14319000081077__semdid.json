@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000081077",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 115.38782930374146,
+  "diversity": {
+    "mean_pairwise_similarity": 0.633444607257843,
+    "pairwise_matrix": [
+      [
+        0.9999999403953552,
+        0.510086178779602,
+        0.7468587160110474
+      ],
+      [
+        0.510086178779602,
+        1.0,
+        0.6433892250061035
+      ],
+      [
+        0.7468587160110474,
+        0.6433892250061035,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000081077",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 10,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 4,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 5,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000081077",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "References specific essay claims like oxygen sharing and paragraph flow, but incorrectly praises factual inaccuracies and offers only generic citation advice."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Introduces completely irrelevant concepts like SpaceX and exoplanets, making the feedback disconnected from the student's actual text and academic level."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Suggests concrete structural improvements like adding subheads and clarifying transitions, but overlooks critical grammar issues and factual errors in the draft."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"References specific essay claims like oxygen sharing and paragraph flow, but incorrectly praises factual inaccuracies and offers only generic citation advice.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Introduces completely irrelevant concepts like SpaceX and exoplanets, making the feedback disconnected from the student's actual text and academic level.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Suggests concrete structural improvements like adding subheads and clarifying transitions, but overlooks critical grammar issues and factual errors in the draft.\"}\n  ]\n}",
+    "error": null
+  }
+}

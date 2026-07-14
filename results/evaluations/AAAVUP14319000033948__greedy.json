@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000033948",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 3.4513931274414062,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000033948",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000033948",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is highly generic and fails to reference any specific content, quotes, or errors from the essay. It offers vague, sometimes inappropriate suggestions like using bullet points and adding more quotes, which do not address the student's core issues with spelling, grammar, sentence structure, and lack of analysis."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is highly generic and fails to reference any specific content, quotes, or errors from the essay. It offers vague, sometimes inappropriate suggestions like using bullet points and adding more quotes, which do not address the student's core issues with spelling, grammar, sentence structure, and lack of analysis.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

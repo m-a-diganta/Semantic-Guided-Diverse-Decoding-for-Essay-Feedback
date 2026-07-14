@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000061939",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 136.40472078323364,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7093934416770935,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7535796165466309,
+        0.667545735836029
+      ],
+      [
+        0.7535796165466309,
+        1.0000001192092896,
+        0.7070547938346863
+      ],
+      [
+        0.667545735836029,
+        0.7070547938346863,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000061939",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 14,
+          "organisation": 11,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 12,
+          "organisation": 11,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000061939",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Stays on topic but offers only generic advice that ignores the essay's severe grammatical and structural flaws, limiting practical value."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Hallucinates content and formatting not present in the essay, provides contradictory advice, and misrates the work entirely."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Structured feedback incorrectly quotes the essay and praises absent qualities, offering vague suggestions that do not address actual writing issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Stays on topic but offers only generic advice that ignores the essay's severe grammatical and structural flaws, limiting practical value.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates content and formatting not present in the essay, provides contradictory advice, and misrates the work entirely.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Structured feedback incorrectly quotes the essay and praises absent qualities, offering vague suggestions that do not address actual writing issues.\"}\n  ]\n}",
+    "error": null
+  }
+}

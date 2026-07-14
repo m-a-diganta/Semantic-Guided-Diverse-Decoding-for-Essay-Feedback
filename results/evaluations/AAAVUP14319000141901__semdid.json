@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000141901",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 110.22312450408936,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7863873839378357,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7670989036560059,
+        0.812773585319519
+      ],
+      [
+        0.7670989036560059,
+        1.0,
+        0.7792896032333374
+      ],
+      [
+        0.812773585319519,
+        0.7792896032333374,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000141901",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 12,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 5,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 9,
+          "evidence": 9,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000141901",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Misattributes quotes not in the text and offers generic advice that ignores the essay's severe mechanical errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Hallucinates unrelated celestial bodies and misidentifies the genre as fiction, rendering it completely unhelpful for this specific essay."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Correctly identifies thesis and organizational weaknesses with a clearer improvement roadmap, though it still hallucinates Mars references."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Misattributes quotes not in the text and offers generic advice that ignores the essay's severe mechanical errors.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates unrelated celestial bodies and misidentifies the genre as fiction, rendering it completely unhelpful for this specific essay.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Correctly identifies thesis and organizational weaknesses with a clearer improvement roadmap, though it still hallucinates Mars references.\"}\n  ]\n}",
+    "error": null
+  }
+}

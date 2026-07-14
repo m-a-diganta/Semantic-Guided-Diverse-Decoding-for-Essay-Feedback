@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000051017",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Provides structured suggestions but relies on generic space-exploration advice rather than directly addressing the essay's specific claims or structural issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Contains hallucinated historical references and cuts off mid-sentence, making the advice confusing and difficult to implement."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 3.0,
+      "actionability": 4.0,
+      "rationale": "Offers comprehensive feedback targeting argument depth, evidence clarity, and mechanical improvements, though it lacks direct quotes from the text."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Provides structured suggestions but relies on generic space-exploration advice rather than directly addressing the essay's specific claims or structural issues.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Contains hallucinated historical references and cuts off mid-sentence, making the advice confusing and difficult to implement.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 3, \"actionability\": 4, \"rationale\": \"Offers comprehensive feedback targeting argument depth, evidence clarity, and mechanical improvements, though it lacks direct quotes from the text.\"}\n  ]\n}",
+  "error": null
+}

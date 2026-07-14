@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000049841",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 89.4774980545044,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7187764644622803,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8206382393836975,
+        0.6718381643295288
+      ],
+      [
+        0.8206382393836975,
+        1.000000238418579,
+        0.6638530492782593
+      ],
+      [
+        0.6718381643295288,
+        0.6638530492782593,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000049841",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 8,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 10,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000049841",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "References specific essay elements like atmospheric pressure but includes factually incorrect advice (Apollo program) and ignores severe grammar/factual errors, offering only vague structural suggestions."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Misinterprets the essay's core confusion and relies on generic praise, failing to address fundamental factual or grammatical issues while providing no concrete revision steps."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Offers entirely generic academic praise that ignores the essay's actual content and severe flaws, providing no specific references or actionable guidance for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"References specific essay elements like atmospheric pressure but includes factually incorrect advice (Apollo program) and ignores severe grammar/factual errors, offering only vague structural suggestions.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Misinterprets the essay's core confusion and relies on generic praise, failing to address fundamental factual or grammatical issues while providing no concrete revision steps.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Offers entirely generic academic praise that ignores the essay's actual content and severe flaws, providing no specific references or actionable guidance for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

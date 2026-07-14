@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000126736",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback identifies structural and evidentiary weaknesses but relies heavily on generic writing advice rather than engaging with the essay's specific claims about Venus and its technology. It suggests vague improvements like 'develop solid arguments' without providing concrete steps or examples for the student to implement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies structural and evidentiary weaknesses but relies heavily on generic writing advice rather than engaging with the essay's specific claims about Venus and its technology. It suggests vague improvements like 'develop solid arguments' without providing concrete steps or examples for the student to implement.\"\n    }\n  ]\n}",
+  "error": null
+}

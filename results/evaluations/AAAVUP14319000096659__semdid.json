@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000096659",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 84.94736623764038,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7532334327697754,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7621780037879944,
+        0.7674503326416016
+      ],
+      [
+        0.7621780037879944,
+        1.0,
+        0.730072021484375
+      ],
+      [
+        0.7674503326416016,
+        0.730072021484375,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096659",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 11,
+          "mechanics": 4
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 7,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 4,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096659",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Covers standard writing dimensions but relies on generic advice and includes an irrelevant suggestion about global environmental challenges."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Overly effusive and vague, failing to address the essay's clear mechanical issues or provide concrete steps for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 4.0,
+        "specificity": 4.0,
+        "actionability": 3.0,
+        "rationale": "Directly engages with specific essay content and offers structural suggestions, though it contains a factual error regarding the war reference."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Covers standard writing dimensions but relies on generic advice and includes an irrelevant suggestion about global environmental challenges.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Overly effusive and vague, failing to address the essay's clear mechanical issues or provide concrete steps for improvement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 4,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"Directly engages with specific essay content and offers structural suggestions, though it contains a factual error regarding the war reference.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

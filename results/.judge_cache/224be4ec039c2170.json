@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000077637",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback is overly positive and inaccurate for a draft with significant clarity, grammar, and interpretation issues, offering generic praise instead of targeted guidance. It lacks concrete steps to help the student fix misread quotes, sentence structure, or organizational weaknesses."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is overly positive and inaccurate for a draft with significant clarity, grammar, and interpretation issues, offering generic praise instead of targeted guidance. It lacks concrete steps to help the student fix misread quotes, sentence structure, or organizational weaknesses.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000031934",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback is overly positive and misaligned with the essay's actual low quality, offering no real guidance. It lacks concrete steps for improvement and fails to address glaring grammatical or factual errors."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Identical to Variant 1, this feedback provides generic praise that ignores the essay's structural and factual flaws. It offers no actionable advice for revision."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "This variant mirrors the others by delivering unfounded praise without addressing specific errors or providing revision strategies. The lack of concrete guidance makes it minimally useful."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is overly positive and misaligned with the essay's actual low quality, offering no real guidance. It lacks concrete steps for improvement and fails to address glaring grammatical or factual errors.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Identical to Variant 1, this feedback provides generic praise that ignores the essay's structural and factual flaws. It offers no actionable advice for revision.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"This variant mirrors the others by delivering unfounded praise without addressing specific errors or providing revision strategies. The lack of concrete guidance makes it minimally useful.\"\n    }\n  ]\n}",
+  "error": null
+}

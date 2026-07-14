@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000103792",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback relies on generic writing advice and cuts off mid-sentence, offering little concrete guidance tailored to the essay's fundamental grammatical and factual issues."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback relies on generic writing advice and cuts off mid-sentence, offering little concrete guidance tailored to the essay's fundamental grammatical and factual issues.\"\n    }\n  ]\n}",
+  "error": null
+}

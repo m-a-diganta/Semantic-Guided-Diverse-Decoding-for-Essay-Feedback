@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000125043",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 24.435619831085205,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0000001192092896,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000125043",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 21,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 21,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 21,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000125043",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "The feedback incorrectly praises a weak essay and gives scientifically inaccurate advice about Venus having oceans, while cutting off mid-sentence."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Nearly identical to Variant 1; it misjudges the essay's quality, suggests impossible examples for Venus, and ends abruptly."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Shares the same generic template and factual errors as the others, with an incomplete final sentence that limits practical guidance."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises a weak essay and gives scientifically inaccurate advice about Venus having oceans, while cutting off mid-sentence.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Nearly identical to Variant 1; it misjudges the essay's quality, suggests impossible examples for Venus, and ends abruptly.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Shares the same generic template and factual errors as the others, with an incomplete final sentence that limits practical guidance.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

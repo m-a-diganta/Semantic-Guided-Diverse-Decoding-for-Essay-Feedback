@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000022523",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 113.63979053497314,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7419567108154297,
+    "pairwise_matrix": [
+      [
+        1.000000238418579,
+        0.7771560549736023,
+        0.7664335370063782
+      ],
+      [
+        0.7771560549736023,
+        1.0,
+        0.6822805404663086
+      ],
+      [
+        0.7664335370063782,
+        0.6822805404663086,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000022523",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 7,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000022523",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is overly positive and generic, failing to address the essay's severe mechanical errors or provide concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "The bullet-point structure slightly improves readability, but the suggestions remain vague and disconnected from the draft's actual flaws."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "The response is rambling and off-topic, suggesting unrelated large-scale projects instead of addressing the essay's content or level."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback is overly positive and generic, failing to address the essay's severe mechanical errors or provide concrete revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"The bullet-point structure slightly improves readability, but the suggestions remain vague and disconnected from the draft's actual flaws.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"The response is rambling and off-topic, suggesting unrelated large-scale projects instead of addressing the essay's content or level.\"}\n  ]\n}",
+    "error": null
+  }
+}

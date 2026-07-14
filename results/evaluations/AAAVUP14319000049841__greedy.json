@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000049841",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.49614405632019,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000049841",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 9,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000049841",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback is largely unhelpful as it ignores the essay's severe grammatical errors and fundamental factual mistakes (e.g., calling Venus a 'plant'), while offering generic writing advice. It mentions the topic but relies on template-like phrasing rather than directly addressing or correcting the student's specific claims, making its suggestions too vague to act upon."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is largely unhelpful as it ignores the essay's severe grammatical errors and fundamental factual mistakes (e.g., calling Venus a 'plant'), while offering generic writing advice. It mentions the topic but relies on template-like phrasing rather than directly addressing or correcting the student's specific claims, making its suggestions too vague to act upon.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

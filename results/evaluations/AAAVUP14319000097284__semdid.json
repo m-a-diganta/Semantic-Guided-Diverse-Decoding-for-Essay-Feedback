@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000097284",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 168.2921802997589,
+  "diversity": {
+    "mean_pairwise_similarity": 0.623198926448822,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.656752347946167,
+        0.6610724925994873
+      ],
+      [
+        0.656752347946167,
+        1.0000001192092896,
+        0.5517718195915222
+      ],
+      [
+        0.6610724925994873,
+        0.5517718195915222,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": false,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 0,
+          "evidence": 4,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 9,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000097284",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Provides generic praise and vague structural advice while completely overlooking the essay's severe grammatical errors and disjointed flow."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Hallucinates quotes and falsely claims impeccable mechanics, making it highly misleading despite suggesting minor terminology tweaks."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Identifies legitimate craft issues like transitions and evidence sourcing, though it still misses fundamental grammar problems and includes a nonsensical author list."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides generic praise and vague structural advice while completely overlooking the essay's severe grammatical errors and disjointed flow.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Hallucinates quotes and falsely claims impeccable mechanics, making it highly misleading despite suggesting minor terminology tweaks.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Identifies legitimate craft issues like transitions and evidence sourcing, though it still misses fundamental grammar problems and includes a nonsensical author list.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

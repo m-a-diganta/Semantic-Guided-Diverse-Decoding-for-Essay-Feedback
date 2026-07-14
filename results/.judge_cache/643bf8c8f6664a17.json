@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000095863",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback is overly generic and misaligned with the essay's severe structural, grammatical, and factual issues. It offers vague suggestions rather than targeted, concrete guidance tailored to the student's actual writing."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is overly generic and misaligned with the essay's severe structural, grammatical, and factual issues. It offers vague suggestions rather than targeted, concrete guidance tailored to the student's actual writing.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000087949",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 90.28131818771362,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7500070929527283,
+    "pairwise_matrix": [
+      [
+        0.9999999403953552,
+        0.728623628616333,
+        0.837404191493988
+      ],
+      [
+        0.728623628616333,
+        1.0,
+        0.6839934587478638
+      ],
+      [
+        0.837404191493988,
+        0.6839934587478638,
+        0.9999999403953552
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000087949",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 3
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 3,
+          "organisation": 5,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 8,
+          "evidence": 8,
+          "organisation": 11,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000087949",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback is highly generic and mischaracterizes the essay's quality as 'excellent,' offering vague advice that lacks text-specific references or concrete steps for improvement."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 4.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "It directly engages with the essay's claims about Venus safety and logical flow, though some phrasing is convoluted and includes a quote not present in the text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback relies on abstract academic jargon and vague structural advice while completely ignoring the essay's actual content about space exploration."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"The feedback is highly generic and mischaracterizes the essay's quality as 'excellent,' offering vague advice that lacks text-specific references or concrete steps for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 4, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"It directly engages with the essay's claims about Venus safety and logical flow, though some phrasing is convoluted and includes a quote not present in the text.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"The feedback relies on abstract academic jargon and vague structural advice while completely ignoring the essay's actual content about space exploration.\"}\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000063514",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 94.71570825576782,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7224044799804688,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7805801630020142,
+        0.7181939482688904
+      ],
+      [
+        0.7805801630020142,
+        1.0,
+        0.6684393286705017
+      ],
+      [
+        0.7181939482688904,
+        0.6684393286705017,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000063514",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 13,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 3,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000063514",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Provides a structured critique with one concrete example for improving evidence integration, but relies heavily on generic writing advice and includes an odd suggestion about using bullet points in a prose essay."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Hallucinates external references like Carl Sagan and incorrectly praises the essay's organization, offering only vague suggestions to add citations without addressing the draft's actual mechanical or analytical weaknesses."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Identifies flow and vagueness issues but introduces irrelevant concepts (Mars/GPvX) and confusing jargon, making the feedback difficult to apply to this specific essay."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Provides a structured critique with one concrete example for improving evidence integration, but relies heavily on generic writing advice and includes an odd suggestion about using bullet points in a prose essay.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Hallucinates external references like Carl Sagan and incorrectly praises the essay's organization, offering only vague suggestions to add citations without addressing the draft's actual mechanical or analytical weaknesses.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Identifies flow and vagueness issues but introduces irrelevant concepts (Mars/GPvX) and confusing jargon, making the feedback difficult to apply to this specific essay.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000032977",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.756093978881836,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6904687881469727,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.7574882507324219,
+        0.6046148538589478
+      ],
+      [
+        0.7574882507324219,
+        1.0,
+        0.7093032002449036
+      ],
+      [
+        0.6046148538589478,
+        0.7093032002449036,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000032977",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 1,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 6,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000032977",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "This feedback hallucinates content not present in the essay (e.g., Mars, asteroids) and references non-existent paragraphs, making it confusing and irrelevant to the student's actual work."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "While it uses a clear categorical structure and addresses mechanics, it relies on irrelevant planetary examples and quotes sentences absent from the essay, limiting its direct applicability."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 4.0,
+        "actionability": 4.0,
+        "rationale": "It accurately references specific phrases from the essay and offers concrete improvements like adding headings and refining word choice, though it slightly overstates the current organizational quality."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"This feedback hallucinates content not present in the essay (e.g., Mars, asteroids) and references non-existent paragraphs, making it confusing and irrelevant to the student's actual work.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"While it uses a clear categorical structure and addresses mechanics, it relies on irrelevant planetary examples and quotes sentences absent from the essay, limiting its direct applicability.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 4, \"rationale\": \"It accurately references specific phrases from the essay and offers concrete improvements like adding headings and refining word choice, though it slightly overstates the current organizational quality.\"}\n  ]\n}",
+    "error": null
+  }
+}

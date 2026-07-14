@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000077637",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 95.05909466743469,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6147971153259277,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.559592604637146,
+        0.693564772605896
+      ],
+      [
+        0.559592604637146,
+        1.0,
+        0.5912339687347412
+      ],
+      [
+        0.693564772605896,
+        0.5912339687347412,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000077637",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 12,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 5,
+          "organisation": 4,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 11,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000077637",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 4.0,
+        "actionability": 2.0,
+        "rationale": "References specific quotes and the Venus/NASA topic, but offers vague expansion suggestions while overlooking major grammatical and analytical flaws."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Incorrectly discusses Mars instead of Venus and provides generic advice on commas, making it largely irrelevant to the essay's actual content."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Highly generic feedback that uses broad terms without referencing specific essay content or providing concrete steps to address its clear mechanical and structural issues."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 2, \"rationale\": \"References specific quotes and the Venus/NASA topic, but offers vague expansion suggestions while overlooking major grammatical and analytical flaws.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Incorrectly discusses Mars instead of Venus and provides generic advice on commas, making it largely irrelevant to the essay's actual content.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Highly generic feedback that uses broad terms without referencing specific essay content or providing concrete steps to address its clear mechanical and structural issues.\"}\n  ]\n}",
+    "error": null
+  }
+}

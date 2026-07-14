@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000127361",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The feedback is overly generic and excessively positive, failing to address the essay's repetitive structure or meta-commentary. It offers vague suggestions like adding visuals without concrete steps to improve the core writing."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "While it attempts to give targeted advice on analysis versus recitation, it includes irrelevant examples and ends with a broken template, making the guidance confusing and difficult to implement."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 4.0,
+      "specificity": 4.0,
+      "actionability": 3.0,
+      "rationale": "This variant directly references the essay's Venus/Earth comparison and suggests expanding on project challenges, providing a clear and relevant direction for revision despite some abstract phrasing."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback is overly generic and excessively positive, failing to address the essay's repetitive structure or meta-commentary. It offers vague suggestions like adding visuals without concrete steps to improve the core writing.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"While it attempts to give targeted advice on analysis versus recitation, it includes irrelevant examples and ends with a broken template, making the guidance confusing and difficult to implement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 4,\n      \"specificity\": 4,\n      \"actionability\": 3,\n      \"rationale\": \"This variant directly references the essay's Venus/Earth comparison and suggests expanding on project challenges, providing a clear and relevant direction for revision despite some abstract phrasing.\"\n    }\n  ]\n}",
+  "error": null
+}

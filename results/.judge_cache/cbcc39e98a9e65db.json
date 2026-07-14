@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000095863",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Generic praise and broad advice that fails to address the essay's severe grammatical errors and disjointed logic, offering little practical value for revision."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 4.0,
+      "actionability": 2.0,
+      "rationale": "Directly references specific phrases and topics from the essay, but provides vague organizational advice and includes irrelevant suggestions like adding visuals."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Mismatched positive tone for a weak draft, suggests unrealistic peer-reviewed citations, and offers only abstract revision tips without concrete steps."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Generic praise and broad advice that fails to address the essay's severe grammatical errors and disjointed logic, offering little practical value for revision.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 2, \"rationale\": \"Directly references specific phrases and topics from the essay, but provides vague organizational advice and includes irrelevant suggestions like adding visuals.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Mismatched positive tone for a weak draft, suggests unrealistic peer-reviewed citations, and offers only abstract revision tips without concrete steps.\"}\n  ]\n}",
+  "error": null
+}

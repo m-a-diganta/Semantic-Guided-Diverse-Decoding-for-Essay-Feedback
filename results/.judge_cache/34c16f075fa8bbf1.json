@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000017635",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "References essay content but hallucinates a Mars comparison and offers vague suggestions without addressing critical grammar or structural issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Provides generic writing advice that fails to target the essay's pervasive mechanical errors or fragmented flow, offering little concrete guidance."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Opens with wildly inaccurate praise and misstates key facts, while delivering only abstract suggestions that ignore the text's fundamental flaws."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"References essay content but hallucinates a Mars comparison and offers vague suggestions without addressing critical grammar or structural issues.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Provides generic writing advice that fails to target the essay's pervasive mechanical errors or fragmented flow, offering little concrete guidance.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Opens with wildly inaccurate praise and misstates key facts, while delivering only abstract suggestions that ignore the text's fundamental flaws.\"}\n  ]\n}",
+  "error": null
+}

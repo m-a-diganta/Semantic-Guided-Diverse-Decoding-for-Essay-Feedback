@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000093560",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback correctly flags weak evidence and disjointed flow but includes irrelevant advice about punctuation around numbers. It lacks direct quotes or paragraph references, making it somewhat generic and only moderately actionable for the student's actual text."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback correctly flags weak evidence and disjointed flow but includes irrelevant advice about punctuation around numbers. It lacks direct quotes or paragraph references, making it somewhat generic and only moderately actionable for the student's actual text.\"\n    }\n  ]\n}",
+  "error": null
+}

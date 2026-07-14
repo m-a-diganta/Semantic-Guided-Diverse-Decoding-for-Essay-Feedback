@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000079171",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 4.366934061050415,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000079171",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 11,
+          "mechanics": 3
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000079171",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly cites non-existent paragraphs and offers vague praise that misaligns with the essay's low quality. Its suggestions lack concrete steps to address the severe grammatical errors and weak thesis, limiting its practical value."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly cites non-existent paragraphs and offers vague praise that misaligns with the essay's low quality. Its suggestions lack concrete steps to address the severe grammatical errors and weak thesis, limiting its practical value.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

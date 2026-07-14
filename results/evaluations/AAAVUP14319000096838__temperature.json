@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000096838",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.998370170593262,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6456918716430664,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.5741403698921204,
+        0.70167076587677
+      ],
+      [
+        0.5741403698921204,
+        1.0000001192092896,
+        0.6612643003463745
+      ],
+      [
+        0.70167076587677,
+        0.6612643003463745,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000096838",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 5,
+          "organisation": 8,
+          "mechanics": 4
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 5,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 7,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000096838",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Overly positive and generic praise that ignores the essay's actual flaws; suggestions are vague and lack concrete examples from the text."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "References specific paragraphs and offers structured suggestions for improvement, though it overlooks significant grammatical issues and remains somewhat surface-level."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Structured format is helpful but contains inaccuracies (e.g., mentions non-existent hyperlinks) and provides abstract advice that lacks direct ties to the student's text."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Overly positive and generic praise that ignores the essay's actual flaws; suggestions are vague and lack concrete examples from the text.\"},\n    {\"variant\": 2, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"References specific paragraphs and offers structured suggestions for improvement, though it overlooks significant grammatical issues and remains somewhat surface-level.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Structured format is helpful but contains inaccuracies (e.g., mentions non-existent hyperlinks) and provides abstract advice that lacks direct ties to the student's text.\"}\n  ]\n}",
+    "error": null
+  }
+}

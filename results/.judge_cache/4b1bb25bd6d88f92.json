@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000142013",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises a severely flawed draft and ignores numerous grammatical, spelling, and structural errors. It provides no concrete steps for the student to improve their writing."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Like Variant 1, it misattributes strengths to a poorly constructed essay and offers zero constructive guidance or error correction."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback fails to address the essay's actual weaknesses and provides only inaccurate praise without actionable recommendations for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises a severely flawed draft and ignores numerous grammatical, spelling, and structural errors. It provides no concrete steps for the student to improve their writing.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Like Variant 1, it misattributes strengths to a poorly constructed essay and offers zero constructive guidance or error correction.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback fails to address the essay's actual weaknesses and provides only inaccurate praise without actionable recommendations for revision.\"\n    }\n  ]\n}",
+  "error": null
+}

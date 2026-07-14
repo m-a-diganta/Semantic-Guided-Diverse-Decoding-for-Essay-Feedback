@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000051084",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly praises the essay as well-organized and logical despite its severe grammatical errors, disjointed structure, and incoherent arguments. It offers no concrete steps to address the actual issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Identical to Variant 1, it mischaracterizes a fragmented, error-ridden draft as logically structured and provides no actionable guidance for revision."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Repeats the same inaccurate praise and fails to address the essay's fundamental flaws, leaving the student with no clear direction for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback incorrectly praises the essay as well-organized and logical despite its severe grammatical errors, disjointed structure, and incoherent arguments. It offers no concrete steps to address the actual issues.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Identical to Variant 1, it mischaracterizes a fragmented, error-ridden draft as logically structured and provides no actionable guidance for revision.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Repeats the same inaccurate praise and fails to address the essay's fundamental flaws, leaving the student with no clear direction for improvement.\"\n    }\n  ]\n}",
+  "error": null
+}

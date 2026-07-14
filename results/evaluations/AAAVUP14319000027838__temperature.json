@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000027838",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.997219085693359,
+  "diversity": {
+    "mean_pairwise_similarity": 0.5178142189979553,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8147205114364624,
+        0.3383191227912903
+      ],
+      [
+        0.8147205114364624,
+        1.0,
+        0.40040314197540283
+      ],
+      [
+        0.3383191227912903,
+        0.40040314197540283,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 5,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 5,
+          "mechanics": 2
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000027838",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Low usefulness due to misdiagnosing the essay's quality and missing critical grammar errors. Specificity is limited as it vaguely references atmospheric details without direct textual grounding. Actionability suffers because the suggestions are generic and lack concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "Moderate usefulness as it correctly identifies the need for concrete data and transitions, though it misinterprets some arguments. Specificity is higher due to references to temperature ranges and climate progression, but the incomplete sentence weakens it. Actionability remains low because the advice lacks step-by-step guidance for implementation."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Very low usefulness due to contradictory praise and vague criticism that ignores the essay's factual inaccuracies. Specificity is minimal as it only broadly mentions spelling and flow without examples. Actionability is poor because recommending external proofreading services offers no practical steps for independent student revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Low usefulness due to misdiagnosing the essay's quality and missing critical grammar errors. Specificity is limited as it vaguely references atmospheric details without direct textual grounding. Actionability suffers because the suggestions are generic and lack concrete revision steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Moderate usefulness as it correctly identifies the need for concrete data and transitions, though it misinterprets some arguments. Specificity is higher due to references to temperature ranges and climate progression, but the incomplete sentence weakens it. Actionability remains low because the advice lacks step-by-step guidance for implementation.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Very low usefulness due to contradictory praise and vague criticism that ignores the essay's factual inaccuracies. Specificity is minimal as it only broadly mentions spelling and flow without examples. Actionability is poor because recommending external proofreading services offers no practical steps for independent student revision.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

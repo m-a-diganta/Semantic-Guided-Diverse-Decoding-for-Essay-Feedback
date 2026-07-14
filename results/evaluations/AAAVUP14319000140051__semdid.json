@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000140051",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 114.57833695411682,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6886822581291199,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.6544275283813477,
+        0.7542479634284973
+      ],
+      [
+        0.6544275283813477,
+        0.9999999403953552,
+        0.6573714017868042
+      ],
+      [
+        0.7542479634284973,
+        0.6573714017868042,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000140051",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 9,
+          "organisation": 10,
+          "mechanics": 5
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 3
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 5,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000140051",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Generic template feedback that mischaracterizes the essay's quality and lacks direct references to its specific content or concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Contains a few relevant points about Venus but is severely undermined by incoherent copy-pasted text, irrelevant meta-comments, and a lack of clear revision guidance."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Coherent and structured feedback that addresses organization and tone, but remains somewhat generic and lacks concrete examples tailored to the essay's specific content or errors."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Generic template feedback that mischaracterizes the essay's quality and lacks direct references to its specific content or concrete revision steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Contains a few relevant points about Venus but is severely undermined by incoherent copy-pasted text, irrelevant meta-comments, and a lack of clear revision guidance.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Coherent and structured feedback that addresses organization and tone, but remains somewhat generic and lacks concrete examples tailored to the essay's specific content or errors.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

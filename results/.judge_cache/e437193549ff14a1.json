@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000067681",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Hallucinates Mars and exoplanets instead of addressing the Venus-focused essay; cuts off mid-sentence with vague structural advice."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Completely misidentifies the essay's subject as Mars/Europa; provides a numbered list of suggestions that are irrelevant to the actual text."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "Correctly identifies Venus and addresses argument/evidence/structure, but relies on broad recommendations rather than citing specific essay content or phrasing."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Hallucinates Mars and exoplanets instead of addressing the Venus-focused essay; cuts off mid-sentence with vague structural advice.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Completely misidentifies the essay's subject as Mars/Europa; provides a numbered list of suggestions that are irrelevant to the actual text.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 3, \"actionability\": 3, \"rationale\": \"Correctly identifies Venus and addresses argument/evidence/structure, but relies on broad recommendations rather than citing specific essay content or phrasing.\"}\n  ]\n}",
+  "error": null
+}

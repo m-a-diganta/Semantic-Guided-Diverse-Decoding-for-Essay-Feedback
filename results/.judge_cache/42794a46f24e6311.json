@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000144265",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback correctly identifies the essay's reliance on speculation and underdeveloped historical analogies, but its recommendations remain too broad to guide the student on how to concretely integrate evidence or structure their arguments."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback correctly identifies the essay's reliance on speculation and underdeveloped historical analogies, but its recommendations remain too broad to guide the student on how to concretely integrate evidence or structure their arguments.\"\n    }\n  ]\n}",
+  "error": null
+}

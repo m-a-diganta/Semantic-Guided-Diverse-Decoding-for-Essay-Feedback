@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000033948",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.185269117355347,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6569919586181641,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        0.6859748959541321,
+        0.5369493961334229
+      ],
+      [
+        0.6859748959541321,
+        1.0,
+        0.7480515837669373
+      ],
+      [
+        0.5369493961334229,
+        0.7480515837669373,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000033948",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 4,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 2,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 4,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000033948",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Generic and incomplete feedback that hallucinates content not in the essay, offering no concrete steps for improvement."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 1.0,
+        "rationale": "Vaguely references essay content but relies on abstract praise and lacks concrete steps for the student's clear structural and mechanical issues."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 4.0,
+        "actionability": 2.0,
+        "rationale": "Directly identifies the essay's key points but suggests a slightly off-topic addition and overlooks critical grammar and spelling corrections."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Generic and incomplete feedback that hallucinates content not in the essay, offering no concrete steps for improvement.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 1, \"rationale\": \"Vaguely references essay content but relies on abstract praise and lacks concrete steps for the student's clear structural and mechanical issues.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 2, \"rationale\": \"Directly identifies the essay's key points but suggests a slightly off-topic addition and overlooks critical grammar and spelling corrections.\"}\n  ]\n}",
+    "error": null
+  }
+}

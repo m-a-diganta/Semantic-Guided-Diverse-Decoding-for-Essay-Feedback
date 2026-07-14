@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000010206",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "The feedback hallucinates strengths and non-existent details like 'Venus' moons,' while offering vague, generic advice that completely misses the essay's run-on structure and factual inaccuracies."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "It references actual phrases from the essay but misinterprets them, providing a structured yet superficial critique that lacks concrete steps to fix fundamental structural and factual problems."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "It incorrectly praises the essay's grammar and organization while citing non-existent quotes, resulting in generic transition advice that fails to address the critical run-on sentence and factual errors."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback hallucinates strengths and non-existent details like 'Venus' moons,' while offering vague, generic advice that completely misses the essay's run-on structure and factual inaccuracies.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"It references actual phrases from the essay but misinterprets them, providing a structured yet superficial critique that lacks concrete steps to fix fundamental structural and factual problems.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"It incorrectly praises the essay's grammar and organization while citing non-existent quotes, resulting in generic transition advice that fails to address the critical run-on sentence and factual errors.\"\n    }\n  ]\n}",
+  "error": null
+}

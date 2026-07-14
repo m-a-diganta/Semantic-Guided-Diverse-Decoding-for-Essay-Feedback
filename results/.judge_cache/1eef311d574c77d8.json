@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000096290",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback relies on generic praise and a factually confusing critique about temperature variations, offering vague suggestions to add descriptions without concrete guidance."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "It accurately references the essay’s key points but pivots to an irrelevant ethical framework, lacking direct editing instructions for the actual text."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The response is overly effusive and template-like, mentioning only vague 'minor adjustments' while providing zero concrete steps for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback relies on generic praise and a factually confusing critique about temperature variations, offering vague suggestions to add descriptions without concrete guidance.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"It accurately references the essay’s key points but pivots to an irrelevant ethical framework, lacking direct editing instructions for the actual text.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The response is overly effusive and template-like, mentioning only vague 'minor adjustments' while providing zero concrete steps for revision.\"\n    }\n  ]\n}",
+  "error": null
+}

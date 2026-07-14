@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000050385",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback identifies general writing areas but relies on generic advice and overlooks the essay's core issue of being a single run-on sentence with multiple factual and grammatical errors. It also incorrectly describes the atmosphere as 'thin' rather than thick."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies general writing areas but relies on generic advice and overlooks the essay's core issue of being a single run-on sentence with multiple factual and grammatical errors. It also incorrectly describes the atmosphere as 'thin' rather than thick.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000104635",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback contains a factual error about the essay's description of Venus's atmosphere and offers generic, vague suggestions that do not address the student's numerous grammatical or structural issues. It lacks concrete revision steps and misjudges the essay's overall quality."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback contains a factual error about the essay's description of Venus's atmosphere and offers generic, vague suggestions that do not address the student's numerous grammatical or structural issues. It lacks concrete revision steps and misjudges the essay's overall quality.\"\n    }\n  ]\n}",
+  "error": null
+}

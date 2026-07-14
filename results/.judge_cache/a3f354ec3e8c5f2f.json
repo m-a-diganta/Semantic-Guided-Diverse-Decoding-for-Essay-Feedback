@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000013851",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback hallucinates strengths like scientific data and quotes that are absent from the essay, severely reducing its usefulness. It offers generic structural advice without referencing specific sentences or addressing the text's actual grammatical and factual flaws."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback hallucinates strengths like scientific data and quotes that are absent from the essay, severely reducing its usefulness. It offers generic structural advice without referencing specific sentences or addressing the text's actual grammatical and factual flaws.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000108133",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 125.36149430274963,
+  "diversity": {
+    "mean_pairwise_similarity": 0.705394446849823,
+    "pairwise_matrix": [
+      [
+        0.9999998807907104,
+        0.68001788854599,
+        0.7554380893707275
+      ],
+      [
+        0.68001788854599,
+        1.0,
+        0.6807273030281067
+      ],
+      [
+        0.7554380893707275,
+        0.6807273030281067,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000108133",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 7,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": false,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 0,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 16,
+          "organisation": 11,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000108133",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Structured but relies on generic writing advice that mischaracterizes the essay's simple tone, limiting its direct applicability to the student's actual draft."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Suggestions focus on out-of-scope topics like ethics and ecology, failing to address the essay's actual arguments or provide relevant improvement steps."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Misidentifies the genre as science fiction, hallucinates non-existent content like Mars colonization, and offers contradictory feedback that cannot be acted upon."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Structured but relies on generic writing advice that mischaracterizes the essay's simple tone, limiting its direct applicability to the student's actual draft.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Suggestions focus on out-of-scope topics like ethics and ecology, failing to address the essay's actual arguments or provide relevant improvement steps.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Misidentifies the genre as science fiction, hallucinates non-existent content like Mars colonization, and offers contradictory feedback that cannot be acted upon.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

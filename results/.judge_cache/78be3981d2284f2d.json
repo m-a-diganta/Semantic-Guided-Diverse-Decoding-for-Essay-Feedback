@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000039644",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback mischaracterizes the essay's low quality and offers vague, generic advice that ignores the pervasive grammatical errors and structural issues."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback mischaracterizes the essay's low quality and offers vague, generic advice that ignores the pervasive grammatical errors and structural issues.\"\n    }\n  ]\n}",
+  "error": null
+}

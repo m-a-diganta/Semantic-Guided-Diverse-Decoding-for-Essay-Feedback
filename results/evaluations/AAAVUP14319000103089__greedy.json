@@ -1,0 +1,51 @@
+{
+  "essay_id": "AAAVUP14319000103089",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 3.8018548488616943,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000103089",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 7,
+          "organisation": 8,
+          "mechanics": 2
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000103089",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback identifies broad areas for improvement but relies heavily on generic writing advice rather than directly addressing the essay's specific structural flaws, grammatical errors, or factual claims. It lacks concrete steps for revision and does not quote or reference the student's actual text."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies broad areas for improvement but relies heavily on generic writing advice rather than directly addressing the essay's specific structural flaws, grammatical errors, or factual claims. It lacks concrete steps for revision and does not quote or reference the student's actual text.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

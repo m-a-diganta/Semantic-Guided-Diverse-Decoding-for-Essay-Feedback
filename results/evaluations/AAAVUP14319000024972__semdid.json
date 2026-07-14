@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000024972",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 93.87627339363098,
+  "diversity": {
+    "mean_pairwise_similarity": 0.5506517291069031,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.3993357717990875,
+        0.6277896165847778
+      ],
+      [
+        0.3993357717990875,
+        1.0,
+        0.6248297095298767
+      ],
+      [
+        0.6277896165847778,
+        0.6248297095298767,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000024972",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 12,
+          "organisation": 12,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 9,
+          "mechanics": 4
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 7,
+          "organisation": 7,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000024972",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "It correctly identifies the Venus topic and quotes specific lines from the essay, but overpraises the work and offers vague suggestions that fail to address the shallow analysis or mechanical errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "It incorrectly labels the low-quality essay as excellent and provides generic writing advice that ignores the specific analytical gaps, repetitive phrasing, and typos present in the text."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "It completely hallucinates the essay's subject as Mars/MAVEN and suggests irrelevant additions like graphs, making it entirely disconnected from the actual Venus-focused text."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"It correctly identifies the Venus topic and quotes specific lines from the essay, but overpraises the work and offers vague suggestions that fail to address the shallow analysis or mechanical errors.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"It incorrectly labels the low-quality essay as excellent and provides generic writing advice that ignores the specific analytical gaps, repetitive phrasing, and typos present in the text.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"It completely hallucinates the essay's subject as Mars/MAVEN and suggests irrelevant additions like graphs, making it entirely disconnected from the actual Venus-focused text.\"}\n  ]\n}",
+    "error": null
+  }
+}

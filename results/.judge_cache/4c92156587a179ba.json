@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000126500",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "References specific essay features like geological terms but relies on generic academic advice that lacks concrete revision steps for this student level."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Confusingly structured and abstract, it reads more like a rubric commentary than direct feedback, offering no clear or practical revision guidance."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Inaccurately praises a weak draft as excellent and misinterprets specific details, providing zero actionable steps for improvement."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"References specific essay features like geological terms but relies on generic academic advice that lacks concrete revision steps for this student level.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Confusingly structured and abstract, it reads more like a rubric commentary than direct feedback, offering no clear or practical revision guidance.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Inaccurately praises a weak draft as excellent and misinterprets specific details, providing zero actionable steps for improvement.\"}\n  ]\n}",
+  "error": null
+}

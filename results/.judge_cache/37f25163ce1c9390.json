@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000103089",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "The feedback is highly generic and incorrectly praises the essay as 'well-structured,' missing its major organizational, grammatical, and factual clarity issues. While it suggests structural improvements, the advice lacks concrete steps tailored to this specific draft."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Identical to Variant 1 in substance; it offers boilerplate advice that mischaracterizes the essay's actual quality and fails to address its pervasive spelling, grammar, and coherence problems."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Like the others, this feedback relies on generic templates and inaccurate praise, providing vague suggestions that do not directly help the student fix the essay's core mechanical and structural problems."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"The feedback is highly generic and incorrectly praises the essay as 'well-structured,' missing its major organizational, grammatical, and factual clarity issues. While it suggests structural improvements, the advice lacks concrete steps tailored to this specific draft.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Identical to Variant 1 in substance; it offers boilerplate advice that mischaracterizes the essay's actual quality and fails to address its pervasive spelling, grammar, and coherence problems.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Like the others, this feedback relies on generic templates and inaccurate praise, providing vague suggestions that do not directly help the student fix the essay's core mechanical and structural problems.\"\n    }\n  ]\n}",
+  "error": null
+}

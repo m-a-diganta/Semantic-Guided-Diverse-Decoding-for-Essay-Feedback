@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000036747",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "The feedback is generic and incorrectly claims the essay lacks grammatical errors, ignoring numerous typos and awkward phrasing. Suggestions like 'more nuanced argumentation' are too abstract to guide concrete improvements."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Identical to Variant 1 but truncates the final sentence mid-thought, reducing clarity. It fails to address the essay's actual mechanical errors or misinterpretations of the source material."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Like Variant 1, it offers vague advice and overlooks the essay's spelling mistakes and factual misread in the conclusion. The feedback lacks specific, actionable steps tailored to this draft."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback is generic and incorrectly claims the essay lacks grammatical errors, ignoring numerous typos and awkward phrasing. Suggestions like 'more nuanced argumentation' are too abstract to guide concrete improvements.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Identical to Variant 1 but truncates the final sentence mid-thought, reducing clarity. It fails to address the essay's actual mechanical errors or misinterpretations of the source material.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Like Variant 1, it offers vague advice and overlooks the essay's spelling mistakes and factual misread in the conclusion. The feedback lacks specific, actionable steps tailored to this draft.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000043632",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "The feedback incorrectly claims the essay is well-organized and ignores its pervasive run-on sentences, offering only vague advice about a thesis statement without concrete steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Identical in substance to Variant 1, it mischaracterizes the essay's structure and provides generic writing advice that fails to address the student's specific mechanical or organizational flaws."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Like the others, it overlooks critical issues like paragraph breaks and punctuation errors, cuts off mid-sentence, and leaves the student with unactionable, template-like feedback."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"The feedback incorrectly claims the essay is well-organized and ignores its pervasive run-on sentences, offering only vague advice about a thesis statement without concrete steps.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Identical in substance to Variant 1, it mischaracterizes the essay's structure and provides generic writing advice that fails to address the student's specific mechanical or organizational flaws.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Like the others, it overlooks critical issues like paragraph breaks and punctuation errors, cuts off mid-sentence, and leaves the student with unactionable, template-like feedback.\"}\n  ]\n}",
+  "error": null
+}

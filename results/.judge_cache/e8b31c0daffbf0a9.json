@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000050859",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Provides general stylistic feedback and references the electronics paragraph, but relies on vague advice like 'refining sentence structure' without directly addressing the essay's core arguments about Venus."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 3.0,
+      "rationale": "Directly quotes a line from the text and offers concrete structural suggestions, but misidentifies Venus as Mars and recommends subheadings/bullets that are often ill-suited for analytical essays."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Correctly identifies the need to deepen analysis and connect facts to reasoning, but repeatedly confuses Venus with Mars, which severely undermines the feedback's accuracy and relevance."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides general stylistic feedback and references the electronics paragraph, but relies on vague advice like 'refining sentence structure' without directly addressing the essay's core arguments about Venus.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Directly quotes a line from the text and offers concrete structural suggestions, but misidentifies Venus as Mars and recommends subheadings/bullets that are often ill-suited for analytical essays.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Correctly identifies the need to deepen analysis and connect facts to reasoning, but repeatedly confuses Venus with Mars, which severely undermines the feedback's accuracy and relevance.\"\n    }\n  ]\n}",
+  "error": null
+}

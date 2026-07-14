@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000046955",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.393752098083496,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7330341339111328,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8124683499336243,
+        0.6969634294509888
+      ],
+      [
+        0.8124683499336243,
+        1.0,
+        0.6896705627441406
+      ],
+      [
+        0.6969634294509888,
+        0.6896705627441406,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 13,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 12,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000046955",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback offers generic structural advice and oddly suggests bullet points for a standard essay, lacking concrete references to the student's actual text or clear revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Highly vague and template-like, it fails to cite specific essay content or provide concrete revision steps, making it difficult for the student to apply."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 3.0,
+        "specificity": 4.0,
+        "actionability": 2.0,
+        "rationale": "It directly engages with the essay's specific claims and quotes, though it hallucinates a Mars comparison and lacks concrete steps for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"The feedback offers generic structural advice and oddly suggests bullet points for a standard essay, lacking concrete references to the student's actual text or clear revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Highly vague and template-like, it fails to cite specific essay content or provide concrete revision steps, making it difficult for the student to apply.\"},\n    {\"variant\": 3, \"usefulness\": 3, \"specificity\": 4, \"actionability\": 2, \"rationale\": \"It directly engages with the essay's specific claims and quotes, though it hallucinates a Mars comparison and lacks concrete steps for revision.\"}\n  ]\n}",
+    "error": null
+  }
+}

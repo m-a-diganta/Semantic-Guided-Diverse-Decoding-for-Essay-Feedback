@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000013851",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Misidentifies existing quotes and data but correctly identifies structural weaknesses and suggests concrete improvements like adding citations and clarifying technical details."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Relies on abstract pedagogical jargon and generic style tips without referencing the essay’s actual content or addressing its factual and structural flaws."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Offers scattered, off-topic suggestions (e.g., moon colonization, exoplanets) that diverge from the essay’s focus on Venus and lacks concrete guidance tied to the provided text."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Misidentifies existing quotes and data but correctly identifies structural weaknesses and suggests concrete improvements like adding citations and clarifying technical details.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Relies on abstract pedagogical jargon and generic style tips without referencing the essay’s actual content or addressing its factual and structural flaws.\"},\n    {\"variant\": 3, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Offers scattered, off-topic suggestions (e.g., moon colonization, exoplanets) that diverge from the essay’s focus on Venus and lacks concrete guidance tied to the provided text.\"}\n  ]\n}",
+  "error": null
+}

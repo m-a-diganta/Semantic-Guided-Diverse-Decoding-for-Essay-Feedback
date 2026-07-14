@@ -1,0 +1,50 @@
+{
+  "essay_id": "AAAVUP14319000087749",
+  "method": "greedy",
+  "k": 1,
+  "latency_s_generation": 2.858322858810425,
+  "diversity": null,
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000087749",
+    "method": "greedy",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 4,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000087749",
+    "method": "greedy",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "The feedback references the essay's topics but mischaracterizes its quality and remains too vague to genuinely help a student with noticeable grammatical, factual, and structural issues. It suggests broad improvements like 'refining structure' without providing concrete steps or addressing the essay's mechanical errors."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback references the essay's topics but mischaracterizes its quality and remains too vague to genuinely help a student with noticeable grammatical, factual, and structural issues. It suggests broad improvements like 'refining structure' without providing concrete steps or addressing the essay's mechanical errors.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

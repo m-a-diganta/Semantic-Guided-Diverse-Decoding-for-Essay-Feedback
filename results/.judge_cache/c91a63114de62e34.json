@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000099922",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback severely misjudges the draft's quality by praising 'strong analytical skills' and offers factually confusing comparisons, making it largely unhelpful for a score-1 essay. It references the topic superficially but fails to provide concrete steps to address the pervasive spelling errors, factual inaccuracies, and structural issues."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback severely misjudges the draft's quality by praising 'strong analytical skills' and offers factually confusing comparisons, making it largely unhelpful for a score-1 essay. It references the topic superficially but fails to provide concrete steps to address the pervasive spelling errors, factual inaccuracies, and structural issues.\"\n    }\n  ]\n}",
+  "error": null
+}

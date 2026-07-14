@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000024972",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Feedback hallucinates unrelated planetary topics (Mars, Saturn) and offers generic advice, making it largely irrelevant to the student's actual draft."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Provides a structured breakdown of argument and evidence but misrepresents essay details; suggestions are somewhat concrete in format but lack direct application to the text's actual flaws."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Accurately references the essay's quotes and structural flow but relies on vague critiques without offering concrete revision steps."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Feedback hallucinates unrelated planetary topics (Mars, Saturn) and offers generic advice, making it largely irrelevant to the student's actual draft.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Provides a structured breakdown of argument and evidence but misrepresents essay details; suggestions are somewhat concrete in format but lack direct application to the text's actual flaws.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Accurately references the essay's quotes and structural flow but relies on vague critiques without offering concrete revision steps.\"\n    }\n  ]\n}",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000039644",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "References specific essay points like NASA and temperatures but offers vague suggestions on transitions and balance without addressing major grammatical or structural flaws."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Heavily hallucinates themes like ethics and terraforming not present in the text, providing abstract advice that misses the essay's actual mechanical and organizational issues."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 1.0,
+      "rationale": "Acknowledges the essay's opening and themes but remains overly complimentary and offers only a vague recommendation to 'keep developing' without concrete steps."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"References specific essay points like NASA and temperatures but offers vague suggestions on transitions and balance without addressing major grammatical or structural flaws.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Heavily hallucinates themes like ethics and terraforming not present in the text, providing abstract advice that misses the essay's actual mechanical and organizational issues.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 1, \"rationale\": \"Acknowledges the essay's opening and themes but remains overly complimentary and offers only a vague recommendation to 'keep developing' without concrete steps.\"}\n  ]\n}",
+  "error": null
+}

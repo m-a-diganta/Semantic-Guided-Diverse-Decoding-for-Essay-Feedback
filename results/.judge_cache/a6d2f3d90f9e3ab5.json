@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000031934",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Identifies organization and mechanics issues but misjudges the essay's quality and suggests factually incorrect improvements like life on Venus."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "Overly positive and vague, failing to address the essay's severe factual inaccuracies or disjointed structure while offering only generic advice."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 1.0,
+      "actionability": 2.0,
+      "rationale": "Hallucinates content not present in the essay and praises non-existent structure, offering only generic suggestions that ignore core flaws."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Identifies organization and mechanics issues but misjudges the essay's quality and suggests factually incorrect improvements like life on Venus.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"Overly positive and vague, failing to address the essay's severe factual inaccuracies or disjointed structure while offering only generic advice.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Hallucinates content not present in the essay and praises non-existent structure, offering only generic suggestions that ignore core flaws.\"\n    }\n  ]\n}",
+  "error": null
+}

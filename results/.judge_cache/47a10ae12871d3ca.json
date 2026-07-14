@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000071150",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Feedback is well-structured and addresses key writing dimensions but mischaracterizes the essay's actual quality, offering generic suggestions with limited concrete revision steps."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Contains hallucinated quotes and fabricated technical details that do not appear in the essay, making the feedback confusing and fundamentally unhelpful for improvement."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 1.0,
+      "rationale": "References specific phrases from the text but inaccurately claims direct quotes are used, while providing vague structural advice that lacks actionable guidance for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Feedback is well-structured and addresses key writing dimensions but mischaracterizes the essay's actual quality, offering generic suggestions with limited concrete revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Contains hallucinated quotes and fabricated technical details that do not appear in the essay, making the feedback confusing and fundamentally unhelpful for improvement.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"References specific phrases from the text but inaccurately claims direct quotes are used, while providing vague structural advice that lacks actionable guidance for revision.\"}\n  ]\n}",
+  "error": null
+}

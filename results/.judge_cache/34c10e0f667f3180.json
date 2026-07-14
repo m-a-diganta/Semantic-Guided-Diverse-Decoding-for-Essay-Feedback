@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000025858",
+  "method": "temperature",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Inaccurately praises a weak essay and offers generic, vague suggestions that ignore severe grammatical and structural issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "Correctly identifies the lack of argumentative depth and comparative analysis but remains abstract without concrete revision steps."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Contains significant factual hallucinations and contradictory advice, making it unhelpful and potentially confusing for the student."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Inaccurately praises a weak essay and offers generic, vague suggestions that ignore severe grammatical and structural issues.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"Correctly identifies the lack of argumentative depth and comparative analysis but remains abstract without concrete revision steps.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Contains significant factual hallucinations and contradictory advice, making it unhelpful and potentially confusing for the student.\"\n    }\n  ]\n}",
+  "error": null
+}

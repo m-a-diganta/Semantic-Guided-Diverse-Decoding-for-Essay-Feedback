@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000096838",
+  "method": "semdid",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 2.0,
+      "actionability": 3.0,
+      "rationale": "Clearly structured feedback targeting mechanics and organization, though suggestions are somewhat generic and miss the essay's specific grammatical errors."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 1.0,
+      "specificity": 1.0,
+      "actionability": 1.0,
+      "rationale": "Contradictory and overly positive feedback that misjudges the essay's quality, offering vague and irrelevant suggestions."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "Provides a coherent but generic critique that fails to address prominent issues like grammar and quote integration, relying on off-topic comparisons."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 2,\n      \"actionability\": 3,\n      \"rationale\": \"Clearly structured feedback targeting mechanics and organization, though suggestions are somewhat generic and miss the essay's specific grammatical errors.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Contradictory and overly positive feedback that misjudges the essay's quality, offering vague and irrelevant suggestions.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Provides a coherent but generic critique that fails to address prominent issues like grammar and quote integration, relying on off-topic comparisons.\"\n    }\n  ]\n}",
+  "error": null
+}

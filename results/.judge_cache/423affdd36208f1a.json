@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000093861",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 3.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback identifies structural and argumentative weaknesses but relies on vague critiques like 'disjointed' and 'fragmented' without offering concrete steps to improve organization or balance the argument. It references some essay content but lacks targeted, actionable guidance for revision."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback identifies structural and argumentative weaknesses but relies on vague critiques like 'disjointed' and 'fragmented' without offering concrete steps to improve organization or balance the argument. It references some essay content but lacks targeted, actionable guidance for revision.\"\n    }\n  ]\n}",
+  "error": null
+}

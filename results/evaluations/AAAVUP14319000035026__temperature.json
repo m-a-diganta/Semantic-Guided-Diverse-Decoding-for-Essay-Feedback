@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000035026",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.086255311965942,
+  "diversity": {
+    "mean_pairwise_similarity": 0.6568929553031921,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.5772891044616699,
+        0.657472550868988
+      ],
+      [
+        0.5772891044616699,
+        1.0000001192092896,
+        0.7359169721603394
+      ],
+      [
+        0.657472550868988,
+        0.7359169721603394,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000035026",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 10,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 8,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 6,
+          "organisation": 9,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000035026",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback hallucinates irrelevant topics like climate change and conspiracy theories, making it unhelpful and poorly aligned with the actual essay."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "The feedback stays on topic and addresses argument structure, but offers vague advice that lacks concrete examples or direct references to the essay's specific errors."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 3.0,
+        "actionability": 2.0,
+        "rationale": "The feedback references actual essay points but incorrectly praises the draft's quality and includes irrelevant claims, limiting its practical value for improvement."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback hallucinates irrelevant topics like climate change and conspiracy theories, making it unhelpful and poorly aligned with the actual essay.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback stays on topic and addresses argument structure, but offers vague advice that lacks concrete examples or direct references to the essay's specific errors.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 3,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback references actual essay points but incorrectly praises the draft's quality and includes irrelevant claims, limiting its practical value for improvement.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

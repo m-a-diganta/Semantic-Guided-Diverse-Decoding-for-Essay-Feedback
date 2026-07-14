@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000095916",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 102.51235151290894,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7716699242591858,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8123643398284912,
+        0.7214096784591675
+      ],
+      [
+        0.8123643398284912,
+        1.0,
+        0.7812356948852539
+      ],
+      [
+        0.7214096784591675,
+        0.7812356948852539,
+        0.9999999403953552
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000095916",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 6,
+          "organisation": 4,
+          "mechanics": 2
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 7,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000095916",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "The feedback stays on topic but relies heavily on generic praise and offers only a vague suggestion regarding precision, failing to address the essay's actual grammatical errors or repetitive structure."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "This response hallucinates content about Mars and water vapor, completely missing the essay's focus on Venus, and provides no concrete suggestions for improvement."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "The feedback references non-existent paragraphs and unrelated scientific topics, offering no specific or actionable guidance tailored to the student's actual writing."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback stays on topic but relies heavily on generic praise and offers only a vague suggestion regarding precision, failing to address the essay's actual grammatical errors or repetitive structure.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"This response hallucinates content about Mars and water vapor, completely missing the essay's focus on Venus, and provides no concrete suggestions for improvement.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"The feedback references non-existent paragraphs and unrelated scientific topics, offering no specific or actionable guidance tailored to the student's actual writing.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

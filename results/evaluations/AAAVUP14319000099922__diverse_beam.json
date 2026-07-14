@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000099922",
+  "method": "diverse_beam",
+  "k": 3,
+  "latency_s_generation": 20.417984008789062,
+  "diversity": {
+    "mean_pairwise_similarity": 1.0000001192092896,
+    "pairwise_matrix": [
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000099922",
+    "method": "diverse_beam",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 13,
+          "organisation": 2,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000099922",
+    "method": "diverse_beam",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "The feedback incorrectly praises a low-quality essay and repeats points verbatim across sections, while cutting off mid-sentence before offering concrete steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Nearly identical to Variant 1; it misjudges the essay's factual accuracy, provides generic advice, and truncates before completing its final point."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Shares the same flaws as V1 and V2, including inappropriate praise for a score-1 essay, repetitive structure, and an incomplete final section that lacks actionable guidance."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback incorrectly praises a low-quality essay and repeats points verbatim across sections, while cutting off mid-sentence before offering concrete steps.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Nearly identical to Variant 1; it misjudges the essay's factual accuracy, provides generic advice, and truncates before completing its final point.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Shares the same flaws as V1 and V2, including inappropriate praise for a score-1 essay, repetitive structure, and an incomplete final section that lacks actionable guidance.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000103305",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.9026172161102295,
+  "diversity": {
+    "mean_pairwise_similarity": 0.8477104306221008,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.8483479619026184,
+        0.8503559827804565
+      ],
+      [
+        0.8483479619026184,
+        1.0,
+        0.8444274663925171
+      ],
+      [
+        0.8503559827804565,
+        0.8444274663925171,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000103305",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 6,
+          "organisation": 8,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 2,
+          "evidence": 7,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 5,
+          "evidence": 8,
+          "organisation": 9,
+          "mechanics": 5
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000103305",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Feedback is generic and misreads the essay's structure by mentioning 'chapters,' offering vague suggestions that fail to address the pervasive spelling and grammar errors."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "The feedback misinterprets key content (e.g., confusing heat issues with electricity availability) and provides vague, high-level advice that does not guide concrete improvements."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Feedback hallucinates non-existent sources and spelling examples, misrepresents the essay's quality, and is incomplete, making it largely unhelpful for revision."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"Feedback is generic and misreads the essay's structure by mentioning 'chapters,' offering vague suggestions that fail to address the pervasive spelling and grammar errors.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 2,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback misinterprets key content (e.g., confusing heat issues with electricity availability) and provides vague, high-level advice that does not guide concrete improvements.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 1,\n      \"rationale\": \"Feedback hallucinates non-existent sources and spelling examples, misrepresents the essay's quality, and is incomplete, making it largely unhelpful for revision.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

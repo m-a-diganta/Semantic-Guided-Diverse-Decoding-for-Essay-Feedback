@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000024007",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback misjudges the essay's weak organization and analytical depth, offering mostly generic advice like adding transitions and deeper analysis without addressing the essay's specific grammatical errors or structural flaws."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback misjudges the essay's weak organization and analytical depth, offering mostly generic advice like adding transitions and deeper analysis without addressing the essay's specific grammatical errors or structural flaws.\"\n    }\n  ]\n}",
+  "error": null
+}

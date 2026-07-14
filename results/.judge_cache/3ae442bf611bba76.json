@@ -1,0 +1,16 @@
+{
+  "essay_id": "AAAVUP14319000147365",
+  "method": "greedy",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 1.0,
+      "specificity": 2.0,
+      "actionability": 2.0,
+      "rationale": "The feedback mischaracterizes a severely flawed essay as well-organized and analytical, offering only generic advice while ignoring critical grammar, spelling, and structural issues that need immediate attention."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"The feedback mischaracterizes a severely flawed essay as well-organized and analytical, offering only generic advice while ignoring critical grammar, spelling, and structural issues that need immediate attention.\"\n    }\n  ]\n}",
+  "error": null
+}

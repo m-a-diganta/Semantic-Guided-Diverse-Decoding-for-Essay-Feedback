@@ -1,0 +1,30 @@
+{
+  "essay_id": "AAAVUP14319000039644",
+  "method": "diverse_beam",
+  "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+  "scores": [
+    {
+      "variant_index": 1,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback incorrectly praises the essay's organization and argument despite its disjointed structure, offering generic advice that misses critical grammar and spelling issues."
+    },
+    {
+      "variant_index": 2,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "It provides vague suggestions like 'start with a hook' without addressing the essay's fundamental mechanical errors or providing concrete revision steps for a struggling writer."
+    },
+    {
+      "variant_index": 3,
+      "usefulness": 2.0,
+      "specificity": 3.0,
+      "actionability": 2.0,
+      "rationale": "The feedback remains generic and misaligned with the essay's actual weaknesses, failing to offer actionable guidance for improving coherence or mechanics."
+    }
+  ],
+  "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"The feedback incorrectly praises the essay's organization and argument despite its disjointed structure, offering generic advice that misses critical grammar and spelling issues.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"It provides vague suggestions like 'start with a hook' without addressing the essay's fundamental mechanical errors or providing concrete revision steps for a struggling writer.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 3, \"actionability\": 2, \"rationale\": \"The feedback remains generic and misaligned with the essay's actual weaknesses, failing to offer actionable guidance for improving coherence or mechanics.\"}\n  ]\n}",
+  "error": null
+}

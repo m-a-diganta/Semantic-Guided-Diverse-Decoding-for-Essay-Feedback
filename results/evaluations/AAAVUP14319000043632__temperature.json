@@ -1,0 +1,114 @@
+{
+  "essay_id": "AAAVUP14319000043632",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 7.349772930145264,
+  "diversity": {
+    "mean_pairwise_similarity": 0.740959107875824,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.7386122941970825,
+        0.7089307308197021
+      ],
+      [
+        0.7386122941970825,
+        0.9999999403953552,
+        0.7753342390060425
+      ],
+      [
+        0.7089307308197021,
+        0.7753342390060425,
+        0.9999998807907104
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000043632",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 1,
+          "evidence": 2,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 7,
+          "evidence": 7,
+          "organisation": 10,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 3,
+          "evidence": 9,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "organisation"
+    ],
+    "n_union": 3
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000043632",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Hallucinates lunar missions and Apollo astronauts not present in the text, making the feedback entirely irrelevant to the student's actual work."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 3.0,
+        "specificity": 3.0,
+        "actionability": 3.0,
+        "rationale": "Identifies structural and organizational issues with some reference to the essay's content, but relies heavily on generic writing advice rather than targeted corrections."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "References specific details like sulfuric clouds and atmospheric pressure but becomes confused about the essay's focus, offering vague critiques without clear revision steps."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\n      \"variant\": 1,\n      \"usefulness\": 1,\n      \"specificity\": 1,\n      \"actionability\": 2,\n      \"rationale\": \"Hallucinates lunar missions and Apollo astronauts not present in the text, making the feedback entirely irrelevant to the student's actual work.\"\n    },\n    {\n      \"variant\": 2,\n      \"usefulness\": 3,\n      \"specificity\": 3,\n      \"actionability\": 3,\n      \"rationale\": \"Identifies structural and organizational issues with some reference to the essay's content, but relies heavily on generic writing advice rather than targeted corrections.\"\n    },\n    {\n      \"variant\": 3,\n      \"usefulness\": 2,\n      \"specificity\": 2,\n      \"actionability\": 2,\n      \"rationale\": \"References specific details like sulfuric clouds and atmospheric pressure but becomes confused about the essay's focus, offering vague critiques without clear revision steps.\"\n    }\n  ]\n}",
+    "error": null
+  }
+}

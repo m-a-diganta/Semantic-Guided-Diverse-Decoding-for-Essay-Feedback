@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000107927",
+  "method": "temperature",
+  "k": 3,
+  "latency_s_generation": 8.371097087860107,
+  "diversity": {
+    "mean_pairwise_similarity": 0.735172688961029,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.699023425579071,
+        0.7163857817649841
+      ],
+      [
+        0.699023425579071,
+        1.0,
+        0.7901086807250977
+      ],
+      [
+        0.7163857817649841,
+        0.7901086807250977,
+        1.0
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000107927",
+    "method": "temperature",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 2,
+          "organisation": 6,
+          "mechanics": 1
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 1,
+          "organisation": 6,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 1,
+          "organisation": 3,
+          "mechanics": 0
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000107927",
+    "method": "temperature",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 1.0,
+        "specificity": 1.0,
+        "actionability": 1.0,
+        "rationale": "Feedback hallucinates irrelevant Mars missions and biological research instead of addressing the Venus-focused essay, making it confusing and unhelpful."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 2.0,
+        "rationale": "Feedback is overly positive and generic, failing to address the essay's severe mechanical errors and logical inconsistencies while offering vague suggestions."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 4.0,
+        "specificity": 4.0,
+        "actionability": 4.0,
+        "rationale": "Effectively identifies the essay's tendency to list rather than analyze, provides concrete examples for improvement, and addresses mechanical clarity with actionable advice."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 1, \"specificity\": 1, \"actionability\": 1, \"rationale\": \"Feedback hallucinates irrelevant Mars missions and biological research instead of addressing the Venus-focused essay, making it confusing and unhelpful.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 2, \"rationale\": \"Feedback is overly positive and generic, failing to address the essay's severe mechanical errors and logical inconsistencies while offering vague suggestions.\"},\n    {\"variant\": 3, \"usefulness\": 4, \"specificity\": 4, \"actionability\": 4, \"rationale\": \"Effectively identifies the essay's tendency to list rather than analyze, provides concrete examples for improvement, and addresses mechanical clarity with actionable advice.\"}\n  ]\n}",
+    "error": null
+  }
+}

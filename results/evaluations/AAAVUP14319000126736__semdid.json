@@ -1,0 +1,115 @@
+{
+  "essay_id": "AAAVUP14319000126736",
+  "method": "semdid",
+  "k": 3,
+  "latency_s_generation": 124.02588129043579,
+  "diversity": {
+    "mean_pairwise_similarity": 0.7322623133659363,
+    "pairwise_matrix": [
+      [
+        1.0,
+        0.6948574185371399,
+        0.7583693265914917
+      ],
+      [
+        0.6948574185371399,
+        1.0000001192092896,
+        0.7435600757598877
+      ],
+      [
+        0.7583693265914917,
+        0.7435600757598877,
+        1.0000001192092896
+      ]
+    ],
+    "n_variants": 3
+  },
+  "rubric_coverage": {
+    "essay_id": "AAAVUP14319000126736",
+    "method": "semdid",
+    "per_variant": [
+      {
+        "variant_index": 1,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 10,
+          "organisation": 4,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 2,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": false
+        },
+        "counts": {
+          "argument": 4,
+          "evidence": 1,
+          "organisation": 5,
+          "mechanics": 0
+        }
+      },
+      {
+        "variant_index": 3,
+        "flags": {
+          "argument": true,
+          "evidence": true,
+          "organisation": true,
+          "mechanics": true
+        },
+        "counts": {
+          "argument": 6,
+          "evidence": 9,
+          "organisation": 11,
+          "mechanics": 1
+        }
+      }
+    ],
+    "union_dimensions": [
+      "argument",
+      "evidence",
+      "mechanics",
+      "organisation"
+    ],
+    "n_union": 4
+  },
+  "llm_judge": {
+    "essay_id": "AAAVUP14319000126736",
+    "method": "semdid",
+    "judge_model": "qwen3.6-35b-a3b-ud-mlx",
+    "scores": [
+      {
+        "variant_index": 1,
+        "usefulness": 3.0,
+        "specificity": 2.0,
+        "actionability": 3.0,
+        "rationale": "Identifies key issues like evidence and organization with relevant Venus context, but relies on generic phrasing and lacks concrete revision steps."
+      },
+      {
+        "variant_index": 2,
+        "usefulness": 2.0,
+        "specificity": 2.0,
+        "actionability": 1.0,
+        "rationale": "Attempts to address argument structure and Venus's history but is confusingly written, misidentifies the text as a book, and offers vague structural advice."
+      },
+      {
+        "variant_index": 3,
+        "usefulness": 2.0,
+        "specificity": 1.0,
+        "actionability": 2.0,
+        "rationale": "Provides a structured framework but includes a completely irrelevant Mars-focused example that undermines its relevance, while the actual Venus feedback remains somewhat generic."
+      }
+    ],
+    "raw_response": "\n\n{\n  \"scores\": [\n    {\"variant\": 1, \"usefulness\": 3, \"specificity\": 2, \"actionability\": 3, \"rationale\": \"Identifies key issues like evidence and organization with relevant Venus context, but relies on generic phrasing and lacks concrete revision steps.\"},\n    {\"variant\": 2, \"usefulness\": 2, \"specificity\": 2, \"actionability\": 1, \"rationale\": \"Attempts to address argument structure and Venus's history but is confusingly written, misidentifies the text as a book, and offers vague structural advice.\"},\n    {\"variant\": 3, \"usefulness\": 2, \"specificity\": 1, \"actionability\": 2, \"rationale\": \"Provides a structured framework but includes a completely irrelevant Mars-focused example that undermines its relevance, while the actual Venus feedback remains somewhat generic.\"}\n  ]\n}",
+    "error": null
+  }
+}
